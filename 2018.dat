@@ -1,0 +1,110 @@
+include skr49.dat
+include members.dat
+
+account 2018 SBK
+
+2018-05-15 (2018.001) Einlage als Vorschuss für notwendige Ausgaben
+    0925    100,00€
+    1601    -100,00€
+2018-05-15 (2018.002) Notarkosten Vereinsanmeldung
+    0925    -24,99€
+    2894    24,99€
+2018-06-20 (2018.003) Mitgliedsbeitrag 1770fbf9
+    0925    16,00€
+    2110    -16,00€
+2018-06-20 (2018.004) Mitgliedsbeitrag 79c34659
+    0925    16,00€
+    2110    -16,00€
+2018-06-20 (2018.005) Mitgliedsbeitrag 6e31976c
+    0925    16,00€
+    2110    -16,00€
+2018-06-20 (2018.006) Mitgliedsbeitrag 5fb36107
+    0925    16,00€
+    2110    -16,00€
+2018-06-20 (2018.007) Mitgliedsbeitrag 8bf3b9a0
+    0925    16,00€
+    2110    -16,00€
+2018-06-20 (2018.008) Mitgliedsbeitrag d657dd65
+    0925    16,00€
+    2110    -16,00€
+2018-06-20 (2018.009) Mitgliedsbeitrag bbfd4e82
+    0925    16,00€
+    2110    -16,00€
+2018-06-20 (2018.010) Mitgliedsbeitrag 92e96c50
+    0925    16,00€
+    2110    -16,00€
+2018-07-12 (2018.011) Mitgliedsbeitrag 20c42a90
+    0950    15,35€
+    2704    0,65€
+    2110    -16,00€
+2018-07-16 (2018.012) Mitgliedsbeitrag b92d33a5
+    0950    15,35€
+    2704    0,65€
+    2110    -16,00€
+2018-07-16 (2018.013) Rückzahlung des Darlehens vom 2018-05-15
+    0925    -100,00€
+    1601    100,00€
+2018-08-08 (2018.014) Mitgliedsbeitrag ec9d949e
+    0950    15,35€
+    2704    0,65€
+    2110    -16,00€
+2018-08-10 (2018.015) Mitgliedsbeitrag 6825740a
+    0925    16,00€
+    2110    -16,00€
+2018-08-14 (2018.016) Einzahlung aus der Kasse aufs Konto
+    0925    -100,00€
+    0945    100,00€
+2018-08-15 (2018.017) Gerichtskosten Ersteintragung
+    0945    -75,00€
+    2894    75,00€
+2018-08-22 (2018.018) Mitgliedsbeitrag 63a0896d
+    0945    16,00€
+    2110    -16,00€
+2018-09-21 (2018.019) Flyerbestellung wir-machen-druck.de
+    0950    -37,65€
+    2810    37,65€
+2018-09-03 (2018.020) Kontoführung
+    0945    -3,50€
+    2704    3,50€
+2018-10-01 (2018.021) Kontoführung
+    0945    -3,50€
+    2704    3,50€
+2018-11-01 (2018.022) Kontoführung
+    0945    -3,50€
+    2704    3,50€
+2018-12-03 (2018.023) Kontoführung
+    0945    -3,50€
+    2704    3,50€
+2018-12-17 (2018.024) Mitgliedsbeitrag c3057da5
+    0945    16,00€
+    2110    -16,00€
+2018-12-28 (2018.025) Kontoführung
+    0945    -3,50€
+    2704    3,50€
+2018-12-31 Gewinnermittlung ideeller Bereich
+    2110    224,00€
+    2704    -19,45€
+    2810    -37,65€
+    2894    -99,99€
+    9882
+2018-12-31 Ergebnisverwendung
+    3963    66,91€
+    1000
+2018-12-31 Abschluss Aufwands- und Ertragskonten
+    3963    -66,91€
+    9889
+2018-12-31 Abschluss Aufwands- und Ertragskonten
+    9882    66,91€
+    9889
+2018-12-31 Abschlussbuchung
+    0925    -19,01€
+    2018 SBK
+2018-12-31 Abschlussbuchung
+    0945    -39,50€
+    2018 SBK
+2018-12-31 Abschlussbuchung
+    0950    -8,40€
+    2018 SBK
+2018-12-31 Abschlussbuchung
+    1000    66,91€
+    2018 SBK
