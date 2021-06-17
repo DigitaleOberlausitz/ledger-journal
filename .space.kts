@@ -6,6 +6,6 @@
 
 job("Print balance") {
     container(displayName = "ledger-cli", image = "dcycle/ledger:1") {
-        args("-f", "2021.dat", "bal")
+        args("-f", "x2021.dat", "bal")
     }
 }
