@@ -1,0 +1,238 @@
+include skr49.dat
+include members.dat
+
+account 2019 EBK
+account 2019 SBK
+
+2019-01-01 Eröffnungsbuchung
+    0925  19,01€
+    2019 EBK
+2019-01-01 Eröffnungsbuchung
+    0945  39,50€
+    2019 EBK
+2019-01-01 Eröffnungsbuchung
+    0950  8,40€
+    2019 EBK
+2019-01-01 Eröffnungsbuchung
+    1000  -66,91€
+    2019 EBK
+2019-01-01 (2019.005) Beiträge offene Posten
+    2110    -244,00€
+    10001    16,00€
+    10002    16,00€
+    10003    16,00€
+    10004    20,00€
+    10005    16,00€
+    10006    16,00€
+    10007    16,00€
+    10008    16,00€
+    10009    16,00€
+    10010    16,00€
+    10011    16,00€
+    10012    16,00€
+    10013    16,00€
+    10014    16,00€
+    10015    16,00€
+2019-02-01 (2019.006) Kontoführung
+    0945    -3,50€
+    2704    3,50€
+2019-02-07 (2019.007) Mitgliedsbeitrag 8bf3b9a0
+    0945    16,00€
+    10013    -16,00€
+2019-02-28 (2019.008) Mitgliedsbeitrag ec9d949e
+    0945    16,00€
+    10010    -16,00€
+2019-03-01 (2019.009) Kontoführung
+    0945    -3,50€
+    2704    3,50€
+2019-03-01 (2019.010) PayPal-Kontoverifikation
+    0945    0,01€
+    2420    -0,01€
+2019-03-01 (2019.011) Mitgliedsbeitrag b92d33a5
+    0945    16,00€
+    10008    -16,00€
+2019-03-01 (2019.012) Mitgliedsbeitrag 79c34659
+    0945    16,00€
+    10009    -16,00€
+2019-03-01 (2019.013) Mitgliedsbeitrag 6825740a
+    0945    16,00€
+    10006    -16,00€
+2019-03-01 (2019.014) Mitgliedsbeitrag 5fb36107
+    0945    16,00€
+    10011    -16,00€
+2019-03-04 (2019.015) Mitgliedsbeitrag bdfe509b 2018
+    0945    4,00€
+    10004    -4,00€
+2019-03-04 (2019.016) Mitgliedsbeitrag 6e31976c
+    0945    16,00€
+    10007    -16,00€
+2019-03-04 (2019.017) Mitgliedsbeitrag bdfe509b 2019
+    0945    16,00€
+    10004    -16,00€
+2019-03-04 (2019.018) Mitgliedsbeitrag 20c42a90
+    0945    16,00€
+    10001    -16,00€
+2019-03-08 (2019.019) Mitgliedsbeitrag 1770fbf9
+    0945    16,00€
+    10005    -16,00€
+2019-03-08 (2019.020) Mitgliedsbeitrag bbfd4e82
+    0945    16,00€
+    10003    -16,00€
+2019-03-08 (2019.021) Mitgliedsbeitrag 92e96c50
+    0945    16,00€
+    10014    -16,00€
+2019-03-10 (2019.022) Mitgliedsbeitrag 63a0896d
+    0950    15,25€
+    2704    0,75€
+    10002    -16,00€
+2019-03-14 (2019.023) Mitgliedsbeitrag d657dd65
+    0945    16,00€
+    10012    -16,00€
+2019-03-22 (2019.024) Webhosting-Gebühren
+    0945    -70,01€
+    2810    70,01€
+2019-03-25 (2019.025) Mitgliedsbeitrag c3057da5
+    0950    24,03€
+    2704    0,97€
+    10015    -16,00€
+    3223    -9,00€
+2019-04-01 (2019.026) Kontoführung
+    0945    -3,50€
+    2704    3,50€
+2019-05-02 (2019.027) Kontoführung
+    0945    -3,50€
+    2704    3,50€
+2019-06-03 (2019.028) Kontoführung
+    0945    -3,50€
+    2704    3,50€
+2019-06-18 (2019.029) eingegangene Spende
+    0945    655,36€
+    3221    -655,36€
+2019-07-01 (2019.030) Kontoführung
+    0945    -3,50€
+    2704    3,50€
+2019-08-01 (2019.031) Kontoführung
+    0945    -3,50€
+    2704    3,50€
+2019-08-29 (2019.032) Abhebung vom Konto in die Kasse
+    0925    100,00€
+    0945    -100,00€
+2019-08-29 (2019.033) 51 Eintrittskarten à 1€ für Vortrag verkauft (§4 Nr 22a)
+    0925    51,00€
+    6510    -51,00€
+2019-09-02 (2019.034) Kontoführung
+    0945    -3,50€
+    2704    3,50€
+2019-10-01 (2019.035) Kontoführung
+    0945    -3,50€
+    2704    3,50€
+2019-10-28 (2019.036) 26 Eintrittskarten à 1€ für Vortrag verkauft (§4 Nr 22a)
+    0925    26,00€
+    6510    -26,00€
+2019-10-28 (2019.037) eingegangene Spende
+    0925    0,10€
+    3223    -0,10€
+2019-10-28 (2019.038) Erstattung Auslagen öfftl. Fachvortrag 44,60 Teil 1
+    0925    -30,33€
+    6680    30,33€
+2019-10-28 (2019.039) Erstattung Auslagen öfftl. Fachvortrag 44,60 Teil 2
+    0925    -14,27€
+    6680    14,27€
+2019-10-28 (2019.040) teilw. Auflösung Rücklage öfftl. Fachvorträge 44,60
+    1000    30,33€
+    1000    14,27€
+    3953
+2019-11-01 (2019.041) Kontoführung
+    0945    -3,50€
+    2704    3,50€
+2019-11-06 (2019.042) Erstattung Auslagen Linux Presentation Day
+    0925    -16,50€
+    6680    16,50€
+2019-12-02 (2019.043) Kontoführung
+    0945    -3,50€
+    2704    3,50€
+2019-12-04 (2019.044) Neues Mitglied, Beitrag offener Posten
+    2110    -4,00€
+    10016    4,00€
+2019-12-18 (2019.045) erhaltene Spenden beim Linux Presentation Day
+    0925    56,00€
+    3223    -56,00€
+2019-12-18 (2019.046) Druckkosten öffentlicher Fachvortrag und Restauflösung der Rücklage
+    0925    -33,80€
+    6680    33,80€
+    1000    22,31€ = 0
+    3953
+2019-12-18 (2019.047) Notarkosten Satzungsänderung
+    0925    -24,99€
+    2894    24,99€
+2019-12-18 (2019.048) erhaltene Spende
+    0925    0,29€
+    3223    -0,29€
+2019-12-30 (2019.049) Kontoführung
+    0945    -3,50€
+    2704    3,50€
+2019-12-30 (2019.050) Mitgliedsbeitrag dd319018
+    0945    4,00€
+    10016    -4,00€
+2019-12-31 (2019.051) Betriebsmittelrücklage ideeller Bereich
+    3967    70,01€
+    3967    42,00€
+    1002
+2019-12-31 Gewinnermittlung ideeller Bereich
+    2110    248,00€
+    2420    0,01€
+    2704    -43,72€
+    2810    -70,01€
+    2894    -24,99€
+    3221    655,36€
+    3223    65,39€
+    9882    -830,04€
+2019-12-31 Gewinnermittlung Zweckbetriebe
+    6510    77,00€
+    6680    -94,90€
+    9886    17,90€
+2019-12-31 Einstellung in freie Rücklage aus ideellem Bereich von 2018
+    3965    22,40€
+    1070
+2019-12-31 Einstellung in freie Rücklage aus ideellem Bereich
+    3965    96,88€
+    1070
+2019-12-31 Ergebnisverwendung
+    3953    66,91€
+    9889
+2019-12-31 Ergebnisverwendung
+    3965    -119,28€
+    9889
+2019-12-31 Ergebnisverwendung
+    3967    -112,01€
+    9889
+2019-12-31 Ergebnisverwendung
+    9882    830,04€
+    9889
+2019-12-31 Ergebnisverwendung
+    9886    -17,90€
+    9889
+2019-12-31 Ergebnisverwendung
+    3963    647,76€
+    1031
+2019-12-31 Ergebnisverwendung
+    9889    647,76€
+    3963
+2019-12-31 Abschlussbuchung
+    0925    -132,51€
+    2019 SBK
+2019-12-31 Abschlussbuchung
+    0945    -698,86€
+    2019 SBK
+2019-12-31 Abschlussbuchung
+    0950    -47,68€
+    2019 SBK
+2019-12-31 Abschlussbuchung
+    1002    112,01€
+    2019 SBK
+2019-12-31 Abschlussbuchung
+    1031    647,76€
+    2019 SBK
+2019-12-31 Abschlussbuchung
+    1070    119,28€
+    2019 SBK
