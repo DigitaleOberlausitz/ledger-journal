@@ -188,3 +188,20 @@ account 2021 SBK
 2021-06-30 (2021.015) Entnahme aus Betriebsmittelrücklage
     1002    4,52€
     3957
+2021-07-19 * (2021.017) Essen und Getränke für MV
+    2800    67,43€; Marktkauf
+    2800    41,21€; Meridian
+    0955
+2021-07-31 * (2021.018) USt. Kontoführung
+    0955    -0,72€
+    2704
+2021-07-31 * (2021.018) Kontoführung
+    0955    -3,80€
+    2704
+2021-07-31 (2021.018) Entnahme aus Betriebsmittelrücklage
+    1002    4,52€
+    3957
+
+;2021-08-31 (2021.019) Auflösung Betriebsmittelrücklage
+;    1002    0,52€ = 0,00€
+;    3957
