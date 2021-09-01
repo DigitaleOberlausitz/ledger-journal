@@ -201,7 +201,12 @@ account 2021 SBK
 2021-07-31 (2021.018) Entnahme aus Betriebsmittelrücklage
     1002    4,52€
     3957
-
-;2021-08-31 (2021.019) Auflösung Betriebsmittelrücklage
-;    1002    0,52€ = 0,00€
-;    3957
+2021-08-31 * (2021.019) USt. Kontoführung
+    0955    -0,72€
+    2704
+2021-08-31 * (2021.019) Kontoführung
+    0955    -3,80€
+    2704
+2021-08-31 (2021.019) Entnahme und Auflösung Betriebsmittelrücklage
+    1002    0,52€ = 0,00€
+    3957
