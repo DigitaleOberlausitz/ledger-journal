@@ -4,21 +4,42 @@ include members.dat
 account 2022 EBK
 account 2022 SBK
 
-2022-01-01 Eröffnungsbuchung
+2022-01-01 * Eröffnungsbuchung
     0925    132,51€
     2022 EBK
-2022-01-01 Eröffnungsbuchung
+2022-01-01 * Eröffnungsbuchung
     0955    1167,80€
     2022 EBK
-2022-01-01 Eröffnungsbuchung
+2022-01-01 * Eröffnungsbuchung
     1031    -647,76€
     2022 EBK
-2022-01-01 Eröffnungsbuchung
+2022-01-01 * Eröffnungsbuchung
     1032    -272,65€
     2022 EBK
-2022-01-01 Eröffnungsbuchung
+2022-01-01 * Eröffnungsbuchung
     1033    -167,03€
     2022 EBK
-2022-01-01 Eröffnungsbuchung
+2022-01-01 * Eröffnungsbuchung
     1070    -212,87€
     2022 EBK
+
+2022-01-03 ! Beiträge offene Posten
+    10001   16,00€
+    10002   16,00€
+    10003   16,00€
+    10004   16,00€
+    10005   16,00€
+    10006   16,00€
+    10007   16,00€
+    10008   16,00€
+    10009   16,00€
+    10010   16,00€
+    10011   16,00€
+    10012   16,00€
+    10013   16,00€
+    10014   16,00€
+    10015   16,00€
+    10016   16,00€
+    10017   16,00€
+    10018   16,00€
+    2110
