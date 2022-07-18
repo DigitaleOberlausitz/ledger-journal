@@ -158,3 +158,9 @@ account 2022 SBK
 2022-06-07 * (2022.013) Catering-Geschirr Vereinsklausur
     0925    -26,20€
     2800
+2022-06-08 * (2022.013) Storno: Catering-Geschirr Vereinsklausur
+    0925    26,20€
+    2800
+2022-06-08 * (2022.013) Korrektur: Catering-Geschirr Vereinsklausur
+    0955    -26,20€
+    2800
