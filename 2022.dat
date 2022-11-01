@@ -281,3 +281,14 @@ account 2022 SBK
 2022-10-31 * (2022.032) Kontoführung
     0955    -4,20€
     2704
+2022-11-01 * (2022.019) RL-Entnahme: Hackathon-Auslagen 5fb36107
+    1031    239,56€
+    3953
+2022-11-01 * (2022.022) RL-Entnahme: JUG-Verpflegung
+    1031    =0
+    1032    76,78€
+    3953    -112,50€
+2022-11-01 * (2022.021) RL-Entnahme: anteilig Hackathon-Verpflegung Herzstück
+    1032    =0
+    1033    =0
+    3953    -362,90€
