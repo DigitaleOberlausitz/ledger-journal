@@ -302,3 +302,21 @@ account 2022 SBK
     0950    175,17€
     2704    4,83€
     3223    -180,00€
+2022-06-14 * (2022.014) [Storno] Pokale für IT-Sommerfest
+    0955    91,00€
+    6680
+2022-06-14 * (2022.014) Pokale für IT-Sommerfest
+    0955    -91,00€
+    6670
+2022-10-28 * (2022.032) [Storno] Auszahlung Preisgelder Hackathon
+    0955    43,00€     ; Christopher
+    0955    43,00€     ; Richard
+    0955    43,00€     ; Max
+    0955    43,00€     ; Konstantin
+    6800
+2022-10-28 * (2022.032) Auszahlung Preisgelder Hackathon
+    0955    -43,00€     ; Christopher
+    0955    -43,00€     ; Richard
+    0955    -43,00€     ; Max
+    0955    -43,00€     ; Konstantin
+    6710
