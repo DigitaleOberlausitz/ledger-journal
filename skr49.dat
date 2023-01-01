@@ -2,7 +2,7 @@ commodity €
     alias EUR
     default
 
-account 0 aktive Vermögensposten:0010-0249 ANLAGEVERMÖGEN:0010-0049 Immaterielle Vermögensgegenstände:0010 Entgeltlich erworbene Konzessionen, Schutzrechte, ähnliche Rechte und Lizenzen an solchen
+account 0 aktive Vermögensposten:0010-0249 ANLAGEVERMÖGEN:0010-0049 Immaterielle Vermögensgegenstände:0010 Entgeltlich erworbene Konzessionen, Schutzrechte, ähnliche Rechte und Lizenzen an solchen:0010 Entgeltlich erworbene Konzessionen, Schutzrechte, ähnliche Rechte und Lizenzen an solchen
     note Entgeltlich erworbene Konzessionen, gewerbliche Schutzrechte und ähnliche Rechte und Werte sowie Lizenzen an solchen Rechten und Werten
     alias 0010 Entgeltlich erworbene Konzessionen, Schutzrechte, ähnliche Rechte und Lizenzen an solchen
     alias 0010
@@ -82,7 +82,7 @@ account 0 aktive Vermögensposten:0010-0249 ANLAGEVERMÖGEN:0050-0249 Sachanlage
     alias 0070 Grundstücksgleiche Rechte
     alias 0070
 
-account 0 aktive Vermögensposten:0010-0249 ANLAGEVERMÖGEN:0050-0249 Sachanlagen:0100 Gebäude
+account 0 aktive Vermögensposten:0010-0249 ANLAGEVERMÖGEN:0050-0249 Sachanlagen:0100 Gebäude:0100 Gebäude
     note Gebäude
     alias 0100 Gebäude
     alias 0100
@@ -172,7 +172,7 @@ account 0 aktive Vermögensposten:0010-0249 ANLAGEVERMÖGEN:0050-0249 Sachanlage
     alias 0220 Vereinsheimausstattung
     alias 0220
 
-account 0 aktive Vermögensposten:0250-0599 ANDERE ANLAGEN, BETRIEBS- UND GESCHÄFTSAUSSTATTUNG:0250-0299 Fahrzeuge, Transportmittel:0250 Kraftfahrzeuge, Transportmittel
+account 0 aktive Vermögensposten:0250-0599 ANDERE ANLAGEN, BETRIEBS- UND GESCHÄFTSAUSSTATTUNG:0250-0299 Fahrzeuge, Transportmittel:0250 Kraftfahrzeuge, Transportmittel:0250 Kraftfahrzeuge, Transportmittel
     note Kraftfahrzeuge, Transportmittel
     alias 0250 Kraftfahrzeuge, Transportmittel
     alias 0250
@@ -192,7 +192,7 @@ account 0 aktive Vermögensposten:0250-0599 ANDERE ANLAGEN, BETRIEBS- UND GESCH�
     alias 0265 Pflegemaschinen
     alias 0265
 
-account 0 aktive Vermögensposten:0250-0599 ANDERE ANLAGEN, BETRIEBS- UND GESCHÄFTSAUSSTATTUNG:0300 Vereinsausstattung
+account 0 aktive Vermögensposten:0250-0599 ANDERE ANLAGEN, BETRIEBS- UND GESCHÄFTSAUSSTATTUNG:0300 Vereinsausstattung:0300 Vereinsausstattung
     note Vereinsausstattung
     alias 0300 Vereinsausstattung
     alias 0300
@@ -222,7 +222,7 @@ account 0 aktive Vermögensposten:0250-0599 ANDERE ANLAGEN, BETRIEBS- UND GESCH�
     alias 0341 Wirtschaftsgüter
     alias 0341
 
-account 0 aktive Vermögensposten:0250-0599 ANDERE ANLAGEN, BETRIEBS- UND GESCHÄFTSAUSSTATTUNG:0400 Sonstige Anlagen und Ausstattung
+account 0 aktive Vermögensposten:0250-0599 ANDERE ANLAGEN, BETRIEBS- UND GESCHÄFTSAUSSTATTUNG:0400 Sonstige Anlagen und Ausstattung:0400 Sonstige Anlagen und Ausstattung
     note Sonstige Anlagen und Ausstattung
     alias 0400 Sonstige Anlagen und Ausstattung
     alias 0400
@@ -287,7 +287,7 @@ account 0 aktive Vermögensposten:0250-0599 ANDERE ANLAGEN, BETRIEBS- UND GESCH�
     alias 0495 Sonstige Sachanlagen im Bau
     alias 0495
 
-account 0 aktive Vermögensposten:0250-0599 ANDERE ANLAGEN, BETRIEBS- UND GESCHÄFTSAUSSTATTUNG:0500-0599 Finanzanlagen:0500 Anteile an verbundenen Unternehmen
+account 0 aktive Vermögensposten:0250-0599 ANDERE ANLAGEN, BETRIEBS- UND GESCHÄFTSAUSSTATTUNG:0500-0599 Finanzanlagen:0500 Anteile an verbundenen Unternehmen:0500 Anteile an verbundenen Unternehmen
     note Anteile an verbundenen Unternehmen (Anlagevermögen)
     alias 0500 Anteile an verbundenen Unternehmen
     alias 0500
@@ -302,7 +302,7 @@ account 0 aktive Vermögensposten:0250-0599 ANDERE ANLAGEN, BETRIEBS- UND GESCH�
     alias 0505 Ausleihungen an verbundene Unternehmen
     alias 0505
 
-account 0 aktive Vermögensposten:0250-0599 ANDERE ANLAGEN, BETRIEBS- UND GESCHÄFTSAUSSTATTUNG:0500-0599 Finanzanlagen:0510 Beteiligungen
+account 0 aktive Vermögensposten:0250-0599 ANDERE ANLAGEN, BETRIEBS- UND GESCHÄFTSAUSSTATTUNG:0500-0599 Finanzanlagen:0510 Beteiligungen:0510 Beteiligungen
     note Beteiligungen
     alias 0510 Beteiligungen
     alias 0510
@@ -337,7 +337,7 @@ account 0 aktive Vermögensposten:0250-0599 ANDERE ANLAGEN, BETRIEBS- UND GESCH�
     alias 0545 Wertpapiere des Anlagevermögens
     alias 0545
 
-account 0 aktive Vermögensposten:0250-0599 ANDERE ANLAGEN, BETRIEBS- UND GESCHÄFTSAUSSTATTUNG:0550 Sonstige Ausleihungen
+account 0 aktive Vermögensposten:0250-0599 ANDERE ANLAGEN, BETRIEBS- UND GESCHÄFTSAUSSTATTUNG:0550 Sonstige Ausleihungen:0550 Sonstige Ausleihungen
     note Sonstige Ausleihungen
     alias 0550 Sonstige Ausleihungen
     alias 0550
@@ -402,7 +402,7 @@ account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderunge
     alias 0650 Forderungen aus Lieferungen und Leistungen
     alias 0650
 
-account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0650-0674 Forderungen aus Lieferungen und Leistungen:0652 Forderungen aus Lieferungen und Leistungen ohne Kontokorrent
+account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0650-0674 Forderungen aus Lieferungen und Leistungen:0652 Forderungen aus Lieferungen und Leistungen ohne Kontokorrent:0652 Forderungen aus Lieferungen und Leistungen ohne Kontokorrent
     note Forderungen aus Lieferungen und Leistungen ohne Kontokorrent
     alias 0652 Forderungen aus Lieferungen und Leistungen ohne Kontokorrent
     alias 0652
@@ -422,7 +422,7 @@ account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderunge
     alias 0655 Forderungen aus Vereinsbereichen
     alias 0655
 
-account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0650-0674 Forderungen aus Lieferungen und Leistungen:0656 Wechsel aus Lieferungen und Leistungen
+account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0650-0674 Forderungen aus Lieferungen und Leistungen:0656 Wechsel aus Lieferungen und Leistungen:0656 Wechsel aus Lieferungen und Leistungen
     note Wechsel aus Lieferungen und Leistungen
     alias 0656 Wechsel aus Lieferungen und Leistungen
     alias 0656
@@ -447,7 +447,7 @@ account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderunge
     alias 0660 Forderungen zu Einnahmen §11 Abs. 1 S. 2 EStG
     alias 0660
 
-account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0650-0674 Forderungen aus Lieferungen und Leistungen:0661 Zweifelhafte Forderungen
+account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0650-0674 Forderungen aus Lieferungen und Leistungen:0661 Zweifelhafte Forderungen:0661 Zweifelhafte Forderungen
     note Zweifelhafte Forderungen
     alias 0661 Zweifelhafte Forderungen
     alias 0661
@@ -482,7 +482,7 @@ account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderunge
     alias 0668 Pauschalwertberichtigung Forderungen >1 Jahr
     alias 0668
 
-account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0650-0674 Forderungen aus Lieferungen und Leistungen:0670 Forderungen aus Lieferungen und Leistungen gegen Gesellschafter
+account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0650-0674 Forderungen aus Lieferungen und Leistungen:0670 Forderungen aus Lieferungen und Leistungen gegen Gesellschafter:0670 Forderungen aus Lieferungen und Leistungen gegen Gesellschafter
     note Forderungen aus Lieferungen und Leistungen gegen Gesellschafter
     alias 0670 Forderungen aus Lieferungen und Leistungen gegen Gesellschafter
     alias 0670
@@ -517,7 +517,7 @@ account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderunge
     alias 0676 Wertberichtigungen >1 Jahr auf Forderungen gegen verbundene Unternehmen
     alias 0676
 
-account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0675-0676+0680-0689 Forderungen / Verbindlichkeiten (verbundene Unternehmen):0680 Forderungen gegen verbundene Unternehmen
+account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0675-0676+0680-0689 Forderungen / Verbindlichkeiten (verbundene Unternehmen):0680 Forderungen gegen verbundene Unternehmen:0680 Forderungen gegen verbundene Unternehmen
     note Forderungen gegen verbundene Unternehmen
     alias 0680 Forderungen gegen verbundene Unternehmen
     alias 0680
@@ -532,7 +532,7 @@ account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderunge
     alias 0682 Forderungen gegen verbundene Unternehmen >1 Jahr
     alias 0682
 
-account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0675-0676+0680-0689 Forderungen / Verbindlichkeiten (verbundene Unternehmen):0683 Besitzwechsel gegen verbundene Unternehmen
+account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0675-0676+0680-0689 Forderungen / Verbindlichkeiten (verbundene Unternehmen):0683 Besitzwechsel gegen verbundene Unternehmen:0683 Besitzwechsel gegen verbundene Unternehmen
     note Besitzwechsel gegen verbundene Unternehmen
     alias 0683 Besitzwechsel gegen verbundene Unternehmen
     alias 0683
@@ -552,7 +552,7 @@ account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderunge
     alias 0686 Bundesbankfähige Besitzwechsel gegen verbundene Unternehmen
     alias 0686
 
-account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0675-0676+0680-0689 Forderungen / Verbindlichkeiten (verbundene Unternehmen):0687 Forderungen aus Lieferungen und Leistungen gegen verbundene Unternehmen
+account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0675-0676+0680-0689 Forderungen / Verbindlichkeiten (verbundene Unternehmen):0687 Forderungen aus Lieferungen und Leistungen gegen verbundene Unternehmen:0687 Forderungen aus Lieferungen und Leistungen gegen verbundene Unternehmen
     note Forderungen aus Lieferungen und Leistungen gegen verbundene Unternehmen
     alias 0687 Forderungen aus Lieferungen und Leistungen gegen verbundene Unternehmen
     alias 0687
@@ -577,7 +577,7 @@ account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderunge
     alias 0678 Wertberichtigungen >1 Jahr auf Forderungen gegen Unternehmen, mit denen ein Beteiligungsverhältnis besteht
     alias 0678
 
-account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0677-0678+0690-0699 Forderungen / Verbindlichkeiten (Unternehmen, mit denen ein Beteiligungsverhältnis besteht):0690 Forderungen gegen Unternehmen, mit denen ein Beteiligungsverhältnis besteht
+account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0677-0678+0690-0699 Forderungen / Verbindlichkeiten (Unternehmen, mit denen ein Beteiligungsverhältnis besteht):0690 Forderungen gegen Unternehmen, mit denen ein Beteiligungsverhältnis besteht:0690 Forderungen gegen Unternehmen, mit denen ein Beteiligungsverhältnis besteht
     note Forderungen gegen Unternehmen, mit denen ein Beteiligungsverhältnis besteht
     alias 0690 Forderungen gegen Unternehmen, mit denen ein Beteiligungsverhältnis besteht
     alias 0690
@@ -592,7 +592,7 @@ account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderunge
     alias 0692 Forderungen >1 Jahr gegen Unternehmen, mit denen ein Beteiligungsverhältnis besteht
     alias 0692
 
-account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0677-0678+0690-0699 Forderungen / Verbindlichkeiten (Unternehmen, mit denen ein Beteiligungsverhältnis besteht):0693 Besitzwechsel gegen Unternehmen, mit denen ein Beteiligungsverhältnis besteht
+account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0677-0678+0690-0699 Forderungen / Verbindlichkeiten (Unternehmen, mit denen ein Beteiligungsverhältnis besteht):0693 Besitzwechsel gegen Unternehmen, mit denen ein Beteiligungsverhältnis besteht:0693 Besitzwechsel gegen Unternehmen, mit denen ein Beteiligungsverhältnis besteht
     note Besitzwechsel gegen Unternehmen, mit denen ein Beteiligungsverhältnis besteht
     alias 0693 Besitzwechsel gegen Unternehmen, mit denen ein Beteiligungsverhältnis besteht
     alias 0693
@@ -612,7 +612,7 @@ account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderunge
     alias 0696 Bundesbankfähige Besitzwechsel gegen Unternehmen, mit denen ein Beteiligungsverhältnis besteht
     alias 0696
 
-account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0677-0678+0690-0699 Forderungen / Verbindlichkeiten (Unternehmen, mit denen ein Beteiligungsverhältnis besteht):0697 Forderungen aus Lieferungen und Leistungen gegen Unternehmen, mit denen ein Beteiligungsverhältnis besteht
+account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0677-0678+0690-0699 Forderungen / Verbindlichkeiten (Unternehmen, mit denen ein Beteiligungsverhältnis besteht):0697 Forderungen aus Lieferungen und Leistungen gegen Unternehmen, mit denen ein Beteiligungsverhältnis besteht:0697 Forderungen aus Lieferungen und Leistungen gegen Unternehmen, mit denen ein Beteiligungsverhältnis besteht
     note Forderungen aus Lieferungen und Leistungen gegen Unternehmen, mit denen ein Beteiligungsverhältnis besteht
     alias 0697 Forderungen aus Lieferungen und Leistungen gegen Unternehmen, mit denen ein Beteiligungsverhältnis besteht
     alias 0697
@@ -627,7 +627,7 @@ account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderunge
     alias 0699 Forderungen >1 Jahr aus Lieferungen und Leistungen gegen Unternehmen, mit denen ein Beteiligungsverhältnis besteht
     alias 0699
 
-account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0700 Sonstige Vermögensgegenstände
+account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0700 Sonstige Vermögensgegenstände:0700 Sonstige Vermögensgegenstände
     note Sonstige Vermögensgegenstände oder sonstige Verbindlichkeiten
     alias 0700 Sonstige Vermögensgegenstände
     alias 0700
@@ -652,7 +652,7 @@ account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderunge
     alias 0710 Verrechnungskonto für Gewinnermittlung §4/3 EStG
     alias 0710
 
-account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0700 Sonstige Vermögensgegenstände:0712 Forderungen gegen Vorstandsmitglieder und Geschäftsführer
+account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0700 Sonstige Vermögensgegenstände:0712 Forderungen gegen Vorstandsmitglieder und Geschäftsführer:0712 Forderungen gegen Vorstandsmitglieder und Geschäftsführer
     note Forderungen gegen Vorstandsmitglieder und Geschäftsführer
     alias 0712 Forderungen gegen Vorstandsmitglieder und Geschäftsführer
     alias 0712
@@ -677,7 +677,7 @@ account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderunge
     alias 0716 Verrechnungskonto erhaltene Anzahlungen bei Buchung über Debitorenkonto
     alias 0716
 
-account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0700 Sonstige Vermögensgegenstände:0717 Forderungen gegen sonstige Gesellschafter
+account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0700 Sonstige Vermögensgegenstände:0717 Forderungen gegen sonstige Gesellschafter:0717 Forderungen gegen sonstige Gesellschafter
     note Forderungen gegen sonstige Gesellschafter
     alias 0717 Forderungen gegen sonstige Gesellschafter
     alias 0717
@@ -697,7 +697,7 @@ account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderunge
     alias 0720 Verrechnungskonto Ist-Versteuerung
     alias 0720
 
-account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0700 Sonstige Vermögensgegenstände:0721 Forderungen gegen Personal aus Lohn- und Gehaltsabrechnung
+account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0700 Sonstige Vermögensgegenstände:0721 Forderungen gegen Personal aus Lohn- und Gehaltsabrechnung:0721 Forderungen gegen Personal aus Lohn- und Gehaltsabrechnung
     note Forderungen gegen Personal aus Lohn- und Gehaltsabrechnung
     alias 0721 Forderungen gegen Personal aus Lohn- und Gehaltsabrechnung
     alias 0721
@@ -712,7 +712,7 @@ account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderunge
     alias 0723 Forderungen >1 Jahr gegen Personal aus Lohn- und Gehaltsabrechnung
     alias 0723
 
-account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0700 Sonstige Vermögensgegenstände:0724 Kautionen
+account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0700 Sonstige Vermögensgegenstände:0724 Kautionen:0724 Kautionen
     note Gezahlte Kautionen
     alias 0724 Kautionen
     alias 0724
@@ -727,7 +727,7 @@ account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderunge
     alias 0726 Kautionen >1 Jahr
     alias 0726
 
-account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0700 Sonstige Vermögensgegenstände:0727 Darlehen
+account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0700 Sonstige Vermögensgegenstände:0727 Darlehen:0727 Darlehen
     note Gewährte Darlehen
     alias 0727 Darlehen
     alias 0727
@@ -757,7 +757,7 @@ account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderunge
     alias 0740 Nettoaufwand 19% Vorumsatz
     alias 0740
 
-account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0700 Sonstige Vermögensgegenstände:0730-0866 Umsatzsteuer-Konten:0730-0742+0761-0820+0849-0857 Saldo USt-Konten:0761-0785+0810-0820+0849-0857 Sonstige Vermögensgegenstände oder sonstige Verbindlichkeiten:0770 Abziehbare Vorsteuer
+account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0700 Sonstige Vermögensgegenstände:0730-0866 Umsatzsteuer-Konten:0730-0742+0761-0820+0849-0857 Saldo USt-Konten:0761-0785+0810-0820+0849-0857 Sonstige Vermögensgegenstände oder sonstige Verbindlichkeiten:0770 Abziehbare Vorsteuer:0770 Abziehbare Vorsteuer
     note Abziehbare Vorsteuer
     alias 0770 Abziehbare Vorsteuer
     alias 0770
@@ -782,7 +782,7 @@ account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderunge
     alias 0785 Pauschalierte Vorsteuer 7%
     alias 0785
 
-account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0700 Sonstige Vermögensgegenstände:0730-0866 Umsatzsteuer-Konten:0730-0742+0761-0820+0849-0857 Saldo USt-Konten:0761-0785+0810-0820+0849-0857 Sonstige Vermögensgegenstände oder sonstige Verbindlichkeiten:0810 Abziehbare Vorsteuer aus innergemeinschaftlichem Erwerb
+account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0700 Sonstige Vermögensgegenstände:0730-0866 Umsatzsteuer-Konten:0730-0742+0761-0820+0849-0857 Saldo USt-Konten:0761-0785+0810-0820+0849-0857 Sonstige Vermögensgegenstände oder sonstige Verbindlichkeiten:0810 Abziehbare Vorsteuer aus innergemeinschaftlichem Erwerb:0810 Abziehbare Vorsteuer aus innergemeinschaftlichem Erwerb
     note Abziehbare Vorsteuer aus innergemeinschaftlichem Erwerb
     alias 0810 Abziehbare Vorsteuer aus innergemeinschaftlichem Erwerb
     alias 0810
@@ -802,7 +802,7 @@ account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderunge
     alias 0820 Gegenkonto Vorsteuer §4/3 EStG
     alias 0820
 
-account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0700 Sonstige Vermögensgegenstände:0730-0866 Umsatzsteuer-Konten:0730-0742+0761-0820+0849-0857 Saldo USt-Konten:0761-0785+0810-0820+0849-0857 Sonstige Vermögensgegenstände oder sonstige Verbindlichkeiten:0849 Abziehbare Vorsteuer nach §13b UStG
+account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0700 Sonstige Vermögensgegenstände:0730-0866 Umsatzsteuer-Konten:0730-0742+0761-0820+0849-0857 Saldo USt-Konten:0761-0785+0810-0820+0849-0857 Sonstige Vermögensgegenstände oder sonstige Verbindlichkeiten:0849 Abziehbare Vorsteuer nach §13b UStG:0849 Abziehbare Vorsteuer nach §13b UStG
     note Abziehbare Vorsteuer nach §13b UStG
     alias 0849 Abziehbare Vorsteuer nach §13b UStG
     alias 0849
@@ -837,7 +837,7 @@ account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderunge
     alias 0795 Nettoaufwand 19 % aus innergemeinschaftlichem Erwerb
     alias 0795
 
-account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0700 Sonstige Vermögensgegenstände:0730-0866 Umsatzsteuer-Konten:0746 Umsatzsteuerforderungen
+account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0700 Sonstige Vermögensgegenstände:0730-0866 Umsatzsteuer-Konten:0746 Umsatzsteuerforderungen:0746 Umsatzsteuerforderungen
     note Forderungen aus Umsatzsteuer-Vorauszahlungen
     alias 0746 Umsatzsteuerforderungen
     alias 0746
@@ -887,7 +887,7 @@ account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderunge
     alias 0760 Nachträglich abziehbare Vorsteuer §15a Abs. 1 UStG, bewegliche Wirtschaftsgüter
     alias 0760
 
-account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0700 Sonstige Vermögensgegenstände:0730-0866 Umsatzsteuer-Konten:0825 Aufzuteilende Vorsteuer
+account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0700 Sonstige Vermögensgegenstände:0730-0866 Umsatzsteuer-Konten:0825 Aufzuteilende Vorsteuer:0825 Aufzuteilende Vorsteuer
     note Aufzuteilende Vorsteuer
     alias 0825 Aufzuteilende Vorsteuer
     alias 0825
@@ -902,7 +902,7 @@ account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderunge
     alias 0835 Aufzuteilende Vorsteuer 19%
     alias 0835
 
-account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0700 Sonstige Vermögensgegenstände:0730-0866 Umsatzsteuer-Konten:0825 Aufzuteilende Vorsteuer:0839 Aufzuteilende Vorsteuer §§ 13a/b UStG
+account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0700 Sonstige Vermögensgegenstände:0730-0866 Umsatzsteuer-Konten:0825 Aufzuteilende Vorsteuer:0839 Aufzuteilende Vorsteuer §§ 13a/b UStG:0839 Aufzuteilende Vorsteuer §§ 13a/b UStG
     note Aufzuteilende Vorsteuer nach §§ 13a & 13b UStG
     alias 0839 Aufzuteilende Vorsteuer §§ 13a/b UStG
     alias 0839
@@ -912,7 +912,7 @@ account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderunge
     alias 0838 Aufzuteilende Vorsteuer 19% nach §§ 13a/b UStG
     alias 0838
 
-account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0700 Sonstige Vermögensgegenstände:0730-0866 Umsatzsteuer-Konten:0825 Aufzuteilende Vorsteuer:0840 Aufzuteilende Vorsteuer aus innergemeinschaftlichem Erwerb
+account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0650-0899 Forderungen, sonstige Vermögensgegenstände:0700 Sonstige Vermögensgegenstände:0730-0866 Umsatzsteuer-Konten:0825 Aufzuteilende Vorsteuer:0840 Aufzuteilende Vorsteuer aus innergemeinschaftlichem Erwerb:0840 Aufzuteilende Vorsteuer aus innergemeinschaftlichem Erwerb
     note Aufzuteilende Vorsteuer aus innergemeinschaftlichem Erwerb
     alias 0840 Aufzuteilende Vorsteuer aus innergemeinschaftlichem Erwerb
     alias 0840
@@ -1047,7 +1047,7 @@ account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0900-0919 Wertpapier
     alias 0915 Sonstige Wertpapiere
     alias 0915
 
-account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0920-0975 Kasse, Bank:0920 Kasse
+account 0 aktive Vermögensposten:0600-0989 UMLAUFVERMÖGEN:0920-0975 Kasse, Bank:0920 Kasse:0920 Kasse
     note Kasse
     alias 0920 Kasse
     alias 0920
@@ -1517,7 +1517,7 @@ account 1 passive Vermögensposten:1230+1235 FÖRDERUNGSVERPFLICHTUNGEN:1235 Rü
     alias 1235 Rückgängig gemachte Bewilligungen
     alias 1235
 
-account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1300-1318 Anleihen:1300 Anleihen, nicht konvertibel
+account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1300-1318 Anleihen:1300 Anleihen, nicht konvertibel:1300 Anleihen, nicht konvertibel
     note Nicht konvertible Anleihen
     alias 1300 Anleihen, nicht konvertibel
     alias 1300
@@ -1537,7 +1537,7 @@ account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1300-1318 Anleihe
     alias 1303 Anleihen >5 Jahre, nicht konvertibel
     alias 1303
 
-account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1300-1318 Anleihen:1315 Anleihen, konvertibel
+account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1300-1318 Anleihen:1315 Anleihen, konvertibel:1315 Anleihen, konvertibel
     note Konvertible Anleihen
     alias 1315 Anleihen, konvertibel
     alias 1315
@@ -1557,7 +1557,7 @@ account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1300-1318 Anleihe
     alias 1318 Anleihen >5 Jahre, konvertibel
     alias 1318
 
-account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1330 Erhaltene Anzahlungen auf Bestellungen
+account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1330 Erhaltene Anzahlungen auf Bestellungen:1330 Erhaltene Anzahlungen auf Bestellungen
     note Erhaltene Anzahlungen auf Bestellungen
     alias 1330 Erhaltene Anzahlungen auf Bestellungen
     alias 1330
@@ -1577,7 +1577,7 @@ account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1330 Erhaltene An
     alias 1333 Erhaltene Anzahlungen auf Bestellungen >5 Jahre
     alias 1333
 
-account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1335-1349 Verbindlichkeiten aus L&L:1335 Verbindlichkeiten aus L&L gegenüber Gesellschaftern
+account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1335-1349 Verbindlichkeiten aus L&L:1335 Verbindlichkeiten aus L&L gegenüber Gesellschaftern:1335 Verbindlichkeiten aus L&L gegenüber Gesellschaftern
     note Verbindlichkeiten aus Lieferungen und Leistungen gegenüber Gesellschaftern
     alias 1335 Verbindlichkeiten aus L&L gegenüber Gesellschaftern
     alias 1335
@@ -1602,7 +1602,7 @@ account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1335-1349 Verbind
     alias 1339 Gegenkonto 1335-1338, 1347-1349, 1365-1369, 1375-1379 bei Aufteilung Kreditorenkonto
     alias 1339
 
-account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1335-1349 Verbindlichkeiten aus L&L:1340 Verbindlichkeiten aus L&L
+account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1335-1349 Verbindlichkeiten aus L&L:1340 Verbindlichkeiten aus L&L:1340 Verbindlichkeiten aus L&L
     note Verbindlichkeiten aus Lieferungen und Leistungen
     alias 1340 Verbindlichkeiten aus L&L
     alias 1340
@@ -1632,7 +1632,7 @@ account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1335-1349 Verbind
     alias 1345 Verbindlichkeiten Investitionen §4/3 EStG
     alias 1345
 
-account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1335-1349 Verbindlichkeiten aus L&L:1346 Verbindlichkeiten aus L&L ohne Kontokorrent
+account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1335-1349 Verbindlichkeiten aus L&L:1346 Verbindlichkeiten aus L&L ohne Kontokorrent:1346 Verbindlichkeiten aus L&L ohne Kontokorrent
     note Verbindlichkeiten aus Lieferungen und Leistungen ohne Kontokorrent
     alias 1346 Verbindlichkeiten aus L&L ohne Kontokorrent
     alias 1346
@@ -1652,7 +1652,7 @@ account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1335-1349 Verbind
     alias 1349 Verbindlichkeiten >5 Jahre aus L&L ohne Kontokorrent
     alias 1349
 
-account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1350 Wechselverbindlichkeiten
+account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1350 Wechselverbindlichkeiten:1350 Wechselverbindlichkeiten
     note Verbindlichkeiten aus Wechseln
     alias 1350 Wechselverbindlichkeiten
     alias 1350
@@ -1672,7 +1672,7 @@ account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1350 Wechselverbi
     alias 1353 Wechselverbindlichkeiten >5 Jahre
     alias 1353
 
-account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1360 Verbindlichkeiten gegenüber verbundenen Unternehmen
+account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1360 Verbindlichkeiten gegenüber verbundenen Unternehmen:1360 Verbindlichkeiten gegenüber verbundenen Unternehmen
     note Verbindlichkeiten oder Forderungen gegen(über) verbundene(n) Unternehmen
     alias 1360 Verbindlichkeiten gegenüber verbundenen Unternehmen
     alias 1360
@@ -1692,7 +1692,7 @@ account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1360 Verbindlichk
     alias 1363 Verbindlichkeiten >5 Jahre gegenüber verbundenen Unternehmen
     alias 1363
 
-account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1360 Verbindlichkeiten gegenüber verbundenen Unternehmen:1365 Verbindlichkeiten aus L&L gegenüber verbundenen Unternehmen
+account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1360 Verbindlichkeiten gegenüber verbundenen Unternehmen:1365 Verbindlichkeiten aus L&L gegenüber verbundenen Unternehmen:1365 Verbindlichkeiten aus L&L gegenüber verbundenen Unternehmen
     note Verbindlichkeiten aus Lieferungen und Leistungen gegenüber verbundenen Unternehmen
     alias 1365 Verbindlichkeiten aus L&L gegenüber verbundenen Unternehmen
     alias 1365
@@ -1712,7 +1712,7 @@ account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1360 Verbindlichk
     alias 1368 Verbindlichkeiten >5 Jahre aus Lieferungen und Leistungen gegenüber verbundenen Unternehmen
     alias 1368
 
-account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1370 Verbindlichkeiten gegenüber Unternehmen mit Beteiligungsverhältnis
+account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1370 Verbindlichkeiten gegenüber Unternehmen mit Beteiligungsverhältnis:1370 Verbindlichkeiten gegenüber Unternehmen mit Beteiligungsverhältnis
     note Verbindlichkeiten oder Forderungen gegenüber Unternehmen, mit denen ein Beteiligungsverhältnis besteht
     alias 1370 Verbindlichkeiten gegenüber Unternehmen mit Beteiligungsverhältnis
     alias 1370
@@ -1732,7 +1732,7 @@ account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1370 Verbindlichk
     alias 1373 Verbindlichkeiten >5 Jahre gegenüber Unternehmen mit Beteiligungsverhältnis
     alias 1373
 
-account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1370 Verbindlichkeiten gegenüber Unternehmen mit Beteiligungsverhältnis:1375 Verbindlichkeiten aus L&L gegenüber Unternehmen mit Beteiligungsverhältnis
+account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1370 Verbindlichkeiten gegenüber Unternehmen mit Beteiligungsverhältnis:1375 Verbindlichkeiten aus L&L gegenüber Unternehmen mit Beteiligungsverhältnis:1375 Verbindlichkeiten aus L&L gegenüber Unternehmen mit Beteiligungsverhältnis
     note Verbindlichkeiten aus Lieferungen und Leistungen gegenüber Unternehmen, mit denen ein Beteiligungsverhältnis besteht
     alias 1375 Verbindlichkeiten aus L&L gegenüber Unternehmen mit Beteiligungsverhältnis
     alias 1375
@@ -1807,7 +1807,7 @@ account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1500 Verbindlichk
     alias 1599 Gegenkonto 1500-1574 bei Aufteilung der Konten 1575-1598
     alias 1599
 
-account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstige Verbindlichkeiten oder sonstige Vermögensgegenstände:1600 Verbindlichkeiten gegenüber Gesellschaftern
+account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstige Verbindlichkeiten oder sonstige Vermögensgegenstände:1600 Verbindlichkeiten gegenüber Gesellschaftern:1600 Verbindlichkeiten gegenüber Gesellschaftern
     note Verbindlichkeiten gegenüber Gesellschaftern
     alias 1600 Verbindlichkeiten gegenüber Gesellschaftern
     alias 1600
@@ -1832,7 +1832,7 @@ account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstig
     alias 1605 Verbindlichkeiten gegenüber Gesellschaftern für offene Ausschüttungen
     alias 1605
 
-account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstige Verbindlichkeiten oder sonstige Vermögensgegenstände:1600 Verbindlichkeiten gegenüber Gesellschaftern:1610 Darlehen typisch stiller Gesellschafter
+account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstige Verbindlichkeiten oder sonstige Vermögensgegenstände:1600 Verbindlichkeiten gegenüber Gesellschaftern:1610 Darlehen typisch stiller Gesellschafter:1610 Darlehen typisch stiller Gesellschafter
     note Darlehen typisch stiller Gesellschafter
     alias 1610 Darlehen typisch stiller Gesellschafter
     alias 1610
@@ -1852,7 +1852,7 @@ account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstig
     alias 1613 Darlehen >5 Jahre typisch stiller Gesellschafter
     alias 1613
 
-account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstige Verbindlichkeiten oder sonstige Vermögensgegenstände:1600 Verbindlichkeiten gegenüber Gesellschaftern:1615 Darlehen atypisch stiller Gesellschafter
+account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstige Verbindlichkeiten oder sonstige Vermögensgegenstände:1600 Verbindlichkeiten gegenüber Gesellschaftern:1615 Darlehen atypisch stiller Gesellschafter:1615 Darlehen atypisch stiller Gesellschafter
     note Darlehen atypisch stiller Gesellschafter
     alias 1615 Darlehen atypisch stiller Gesellschafter
     alias 1615
@@ -1872,7 +1872,7 @@ account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstig
     alias 1618 Darlehen >5 Jahre atypisch stiller Gesellschafter
     alias 1618
 
-account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstige Verbindlichkeiten oder sonstige Vermögensgegenstände:1620 Partiarische Darlehen
+account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstige Verbindlichkeiten oder sonstige Vermögensgegenstände:1620 Partiarische Darlehen:1620 Partiarische Darlehen
     note Partiarische Darlehen
     alias 1620 Partiarische Darlehen
     alias 1620
@@ -1892,7 +1892,7 @@ account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstig
     alias 1623 Partiarische Darlehen >5 Jahre
     alias 1623
 
-account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstige Verbindlichkeiten oder sonstige Vermögensgegenstände:1625 Erhaltene Kautionen
+account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstige Verbindlichkeiten oder sonstige Vermögensgegenstände:1625 Erhaltene Kautionen:1625 Erhaltene Kautionen
     note Erhaltene Kautionen
     alias 1625 Erhaltene Kautionen
     alias 1625
@@ -1912,7 +1912,7 @@ account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstig
     alias 1628 Erhaltene Kautionen >5 Jahre
     alias 1628
 
-account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstige Verbindlichkeiten oder sonstige Vermögensgegenstände:1630 Darlehen
+account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstige Verbindlichkeiten oder sonstige Vermögensgegenstände:1630 Darlehen:1630 Darlehen
     note Darlehen
     alias 1630 Darlehen
     alias 1630
@@ -1952,7 +1952,7 @@ account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstig
     alias 1682 Verbindlichkeiten gegenüber Arbeitsgemeinschaften
     alias 1682
 
-account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstige Verbindlichkeiten oder sonstige Vermögensgegenstände:1685 Verbindlichkeiten gegenüber Gesellschaftern
+account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstige Verbindlichkeiten oder sonstige Vermögensgegenstände:1685 Verbindlichkeiten gegenüber Gesellschaftern:1685 Verbindlichkeiten gegenüber Gesellschaftern
     note Verbindlichkeiten gegenüber GmbH-Gesellschaftern
     alias 1685 Verbindlichkeiten gegenüber Gesellschaftern
     alias 1685
@@ -1972,7 +1972,7 @@ account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstig
     alias 1688 Verbindlichkeiten >5 Jahre gegenüber Gesellschaftern
     alias 1688
 
-account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstige Verbindlichkeiten oder sonstige Vermögensgegenstände:1690 Verbindlichkeiten gegenüber stillen Gesellschaftern
+account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstige Verbindlichkeiten oder sonstige Vermögensgegenstände:1690 Verbindlichkeiten gegenüber stillen Gesellschaftern:1690 Verbindlichkeiten gegenüber stillen Gesellschaftern
     note Verbindlichkeiten gegenüber stillen Gesellschaftern
     alias 1690 Verbindlichkeiten gegenüber stillen Gesellschaftern
     alias 1690
@@ -2002,7 +2002,7 @@ account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstig
     alias 1700 Verbindlichkeiten aus Lohn- und Kirchensteuer
     alias 1700
 
-account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstige Verbindlichkeiten oder sonstige Vermögensgegenstände:1705 Verbindlichkeiten im Rahmen der sozialen Sicherheit
+account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstige Verbindlichkeiten oder sonstige Vermögensgegenstände:1705 Verbindlichkeiten im Rahmen der sozialen Sicherheit:1705 Verbindlichkeiten im Rahmen der sozialen Sicherheit
     note Verbindlichkeiten im Rahmen der sozialen Sicherheit
     alias 1705 Verbindlichkeiten im Rahmen der sozialen Sicherheit
     alias 1705
@@ -2042,7 +2042,7 @@ account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstig
     alias 1716 Verbindlichkeiten für Verbrauchsteuern
     alias 1716
 
-account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstige Verbindlichkeiten oder sonstige Vermögensgegenstände:1720 Verbindlichkeiten aus Vermögensbildung
+account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstige Verbindlichkeiten oder sonstige Vermögensgegenstände:1720 Verbindlichkeiten aus Vermögensbildung:1720 Verbindlichkeiten aus Vermögensbildung
     note Verbindlichkeiten aus Vermögensbildung
     alias 1720 Verbindlichkeiten aus Vermögensbildung
     alias 1720
@@ -2067,7 +2067,7 @@ account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstig
     alias 1724 Ausgegebene Geschenkgutscheine
     alias 1724
 
-account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstige Verbindlichkeiten oder sonstige Vermögensgegenstände:1730 Lohn- und Gehaltsverrechnungskonto
+account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstige Verbindlichkeiten oder sonstige Vermögensgegenstände:1730 Lohn- und Gehaltsverrechnungskonto:1730 Lohn- und Gehaltsverrechnungskonto
     note Lohn- und Gehaltsverrechnungskonto
     alias 1730 Lohn- und Gehaltsverrechnungskonto
     alias 1730
@@ -2092,7 +2092,7 @@ account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstig
     alias 1799 Verbindlichkeiten an das Finanzamt aus abzuführendem Bauabzugsbetrag
     alias 1799
 
-account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstige Verbindlichkeiten oder sonstige Vermögensgegenstände:1800 Sonstige Verbindlichkeiten
+account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstige Verbindlichkeiten oder sonstige Vermögensgegenstände:1800 Sonstige Verbindlichkeiten:1800 Sonstige Verbindlichkeiten
     note Sonstige Verbindlichkeiten
     alias 1800 Sonstige Verbindlichkeiten
     alias 1800
@@ -2117,7 +2117,7 @@ account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstig
     alias 1804 Verbindlichkeiten zu Ausgaben §11 Abs. 2 S. 2 EStG
     alias 1804
 
-account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstige Verbindlichkeiten oder sonstige Vermögensgegenstände:1806 Verbindlichkeiten aus Steuern und Abgaben
+account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstige Verbindlichkeiten oder sonstige Vermögensgegenstände:1806 Verbindlichkeiten aus Steuern und Abgaben:1806 Verbindlichkeiten aus Steuern und Abgaben
     note Verbindlichkeiten aus Steuern und Abgaben
     alias 1806 Verbindlichkeiten aus Steuern und Abgaben
     alias 1806
@@ -2167,7 +2167,7 @@ account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstig
     alias 1836 Nettoerlöse 0% aus innergemeinschaftlichen Lieferungen
     alias 1836
 
-account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstige Verbindlichkeiten oder sonstige Vermögensgegenstände:1815-1989 Umsatzsteuer-Konten:1815-1879+1901-1909 Saldo USt-Konten:1840 Umsatzsteuer
+account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstige Verbindlichkeiten oder sonstige Vermögensgegenstände:1815-1989 Umsatzsteuer-Konten:1815-1879+1901-1909 Saldo USt-Konten:1840 Umsatzsteuer:1840 Umsatzsteuer
     note Umsatzsteuer
     alias 1840 Umsatzsteuer
     alias 1840
@@ -2182,7 +2182,7 @@ account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstig
     alias 1850 Umsatzsteuer 19%
     alias 1850
 
-account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstige Verbindlichkeiten oder sonstige Vermögensgegenstände:1815-1989 Umsatzsteuer-Konten:1815-1879+1901-1909 Saldo USt-Konten:1840 Umsatzsteuer:1860 Umsatzsteuer aus innergemeinschaftlichem Erwerb
+account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstige Verbindlichkeiten oder sonstige Vermögensgegenstände:1815-1989 Umsatzsteuer-Konten:1815-1879+1901-1909 Saldo USt-Konten:1840 Umsatzsteuer:1860 Umsatzsteuer aus innergemeinschaftlichem Erwerb:1860 Umsatzsteuer aus innergemeinschaftlichem Erwerb
     note Umsatzsteuer aus innergemeinschaftlichem Erwerb
     alias 1860 Umsatzsteuer aus innergemeinschaftlichem Erwerb
     alias 1860
@@ -2232,7 +2232,7 @@ account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstig
     alias 1871 Umsatzsteuer aus im anderen EU-Land steuerpflichtigen sonstigen Leistungen
     alias 1871
 
-account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstige Verbindlichkeiten oder sonstige Vermögensgegenstände:1815-1989 Umsatzsteuer-Konten:1815-1879+1901-1909 Saldo USt-Konten:1840 Umsatzsteuer:1901 Umsatzsteuer nach §13b UStG
+account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstige Verbindlichkeiten oder sonstige Vermögensgegenstände:1815-1989 Umsatzsteuer-Konten:1815-1879+1901-1909 Saldo USt-Konten:1840 Umsatzsteuer:1901 Umsatzsteuer nach §13b UStG:1901 Umsatzsteuer nach §13b UStG
     note Umsatzsteuer nach §13b UStG
     alias 1901 Umsatzsteuer nach §13b UStG
     alias 1901
@@ -2257,7 +2257,7 @@ account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstig
     alias 1890 Umsatzsteuer nicht fällig 19%
     alias 1890
 
-account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstige Verbindlichkeiten oder sonstige Vermögensgegenstände:1815-1989 Umsatzsteuer-Konten:1880 Umsatzsteuer nicht fällig:1895 Umsatzsteuer nicht fällig aus im Inland steuerpflichtigen EG-Lieferungen
+account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstige Verbindlichkeiten oder sonstige Vermögensgegenstände:1815-1989 Umsatzsteuer-Konten:1880 Umsatzsteuer nicht fällig:1895 Umsatzsteuer nicht fällig aus im Inland steuerpflichtigen EG-Lieferungen:1895 Umsatzsteuer nicht fällig aus im Inland steuerpflichtigen EG-Lieferungen
     note Umsatzsteuer nicht fällig aus im Inland steuerpflichtigen EG-Lieferungen
     alias 1895 Umsatzsteuer nicht fällig aus im Inland steuerpflichtigen EG-Lieferungen
     alias 1895
@@ -2267,7 +2267,7 @@ account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstig
     alias 1896 Umsatzsteuer 19% nicht fällig aus im Inland steuerpflichtigen EG-Lieferungen 19%
     alias 1896
 
-account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstige Verbindlichkeiten oder sonstige Vermögensgegenstände:1815-1989 Umsatzsteuer-Konten:1910 Umsatzsteuer-Vorauszahlung/-Erstattung
+account 1 passive Vermögensposten:1300-1989 VERBINDLICHKEITEN:1600-1989 Sonstige Verbindlichkeiten oder sonstige Vermögensgegenstände:1815-1989 Umsatzsteuer-Konten:1910 Umsatzsteuer-Vorauszahlung/-Erstattung:1910 Umsatzsteuer-Vorauszahlung/-Erstattung
     note Sammelkonto Umsatzsteuer-Vorauszahlungen und -Erstattungen
     alias 1910 Umsatzsteuer-Vorauszahlung/-Erstattung
     alias 1910
@@ -2327,7 +2327,7 @@ account 1 passive Vermögensposten:1990 PASSIVE RECHNUNGSABGRENZUNGSPOSTEN
     alias 1990 PASSIVE RECHNUNGSABGRENZUNGSPOSTEN
     alias 1990
 
-account 2 Erfolgskonten ideeller Bereich:2000 EINNAHMEN
+account 2 Erfolgskonten ideeller Bereich:2000 EINNAHMEN:2000 EINNAHMEN
     note Einnahmen ideeller Bereich
     alias 2000 EINNAHMEN
     alias 2000
@@ -2357,7 +2357,7 @@ account 2 Erfolgskonten ideeller Bereich:2000 EINNAHMEN:2150-2170 Aufnahmegebüh
     alias 2170 Umlagen
     alias 2170
 
-account 2 Erfolgskonten ideeller Bereich:2000 EINNAHMEN:2300 Zuschüsse
+account 2 Erfolgskonten ideeller Bereich:2000 EINNAHMEN:2300 Zuschüsse:2300 Zuschüsse
     note Erhaltene nicht steuerbare Zuschüsse
     alias 2300 Zuschüsse
     alias 2300
@@ -2377,7 +2377,7 @@ account 2 Erfolgskonten ideeller Bereich:2000 EINNAHMEN:2300 Zuschüsse:2303 Son
     alias 2303 Sonstige Zuschüsse
     alias 2303
 
-account 2 Erfolgskonten ideeller Bereich:2000 EINNAHMEN:2400 Sonstige Einnahmen ideeller Bereich
+account 2 Erfolgskonten ideeller Bereich:2000 EINNAHMEN:2400 Sonstige Einnahmen ideeller Bereich:2400 Sonstige Einnahmen ideeller Bereich
     note Sonstige nicht steuerbare Einnahmen Bereich 2000
     alias 2400 Sonstige Einnahmen ideeller Bereich
     alias 2400
@@ -2412,7 +2412,7 @@ account 2 Erfolgskonten ideeller Bereich:2000 EINNAHMEN:2400 Sonstige Einnahmen 
     alias 2425 Anlagenabgänge Sachanlagen
     alias 2425
 
-account 2 Erfolgskonten ideeller Bereich:2000 EINNAHMEN:2400 Sonstige Einnahmen ideeller Bereich:2450 Verrechnete/aufgeteilte Einnahmen ideeller Bereich
+account 2 Erfolgskonten ideeller Bereich:2000 EINNAHMEN:2400 Sonstige Einnahmen ideeller Bereich:2450 Verrechnete/aufgeteilte Einnahmen ideeller Bereich:2450 Verrechnete/aufgeteilte Einnahmen ideeller Bereich
     note Verrechnete/aufgeteilte Einnahmen ideeller Bereich
     alias 2450 Verrechnete/aufgeteilte Einnahmen ideeller Bereich
     alias 2450
@@ -2442,12 +2442,12 @@ account 2 Erfolgskonten ideeller Bereich:2500-2999 AUSGABEN:2500-2502 Abschreibu
     alias 2502 Abschreibungen auf den Sammelposten Wirtschaftsgüter
     alias 2502
 
-account 2 Erfolgskonten ideeller Bereich:2500-2999 AUSGABEN:2510 Übrige Ausgaben
+account 2 Erfolgskonten ideeller Bereich:2500-2999 AUSGABEN:2510 Übrige Ausgaben:2510 Übrige Ausgaben
     note Übrige Ausgaben Bereich 2000
     alias 2510 Übrige Ausgaben
     alias 2510
 
-account 2 Erfolgskonten ideeller Bereich:2500-2999 AUSGABEN:2510 Übrige Ausgaben:2503 Kalkulatorische Abschreibungen
+account 2 Erfolgskonten ideeller Bereich:2500-2999 AUSGABEN:2510 Übrige Ausgaben:2503 Kalkulatorische Abschreibungen:2503 Kalkulatorische Abschreibungen
     note Kalkulatorische Abschreibungen
     alias 2503 Kalkulatorische Abschreibungen
     alias 2503
@@ -2637,7 +2637,7 @@ account 2 Erfolgskonten ideeller Bereich:2500-2999 AUSGABEN:2560-2564 Reisekoste
     alias 2560-2564 Reisekosten
     alias 2560-2564
 
-account 2 Erfolgskonten ideeller Bereich:2500-2999 AUSGABEN:2560-2564 Reisekosten:2561 Reisekosten Arbeitnehmer
+account 2 Erfolgskonten ideeller Bereich:2500-2999 AUSGABEN:2560-2564 Reisekosten:2561 Reisekosten Arbeitnehmer:2561 Reisekosten Arbeitnehmer
     note Reisekosten Arbeitnehmer
     alias 2561 Reisekosten Arbeitnehmer
     alias 2561
@@ -2652,7 +2652,7 @@ account 2 Erfolgskonten ideeller Bereich:2500-2999 AUSGABEN:2560-2564 Reisekoste
     alias 2562 Reisekosten Arbeitnehmer Übernachtungsaufwand
     alias 2562
 
-account 2 Erfolgskonten ideeller Bereich:2500-2999 AUSGABEN:2560-2564 Reisekosten:2561 Reisekosten Arbeitnehmer:2563 Reisekosten Arbeitnehmer Fahrtkosten
+account 2 Erfolgskonten ideeller Bereich:2500-2999 AUSGABEN:2560-2564 Reisekosten:2561 Reisekosten Arbeitnehmer:2563 Reisekosten Arbeitnehmer Fahrtkosten:2563 Reisekosten Arbeitnehmer Fahrtkosten
     note Reisekosten Arbeitnehmer Fahrtkosten
     alias 2563 Reisekosten Arbeitnehmer Fahrtkosten
     alias 2563
@@ -2677,7 +2677,7 @@ account 2 Erfolgskonten ideeller Bereich:2500-2999 AUSGABEN:2660-2663 Raumkosten
     alias 2663 Raumnebenkosten
     alias 2663
 
-account 3 Erfolgskonten für ertragsteuerneutrale Posten:3200-3899 ERTRAGSNEUTRALE POSTEN:3200-3399 Ideeller Bereich:3200 Steuerneutrale Einnahmen ideeller Bereich
+account 3 Erfolgskonten für ertragsteuerneutrale Posten:3200-3899 ERTRAGSNEUTRALE POSTEN:3200-3399 Ideeller Bereich:3200 Steuerneutrale Einnahmen ideeller Bereich:3200 Steuerneutrale Einnahmen ideeller Bereich
     note Sonstige steuerneutrale Einnahmen Bereich 2000
     alias 3200 Steuerneutrale Einnahmen ideeller Bereich
     alias 3200
@@ -2702,7 +2702,7 @@ account 3 Erfolgskonten für ertragsteuerneutrale Posten:3200-3899 ERTRAGSNEUTRA
     alias 3215 Sonstige Einnahmen
     alias 3215
 
-account 3 Erfolgskonten für ertragsteuerneutrale Posten:3200-3899 ERTRAGSNEUTRALE POSTEN:3200-3399 Ideeller Bereich:3200 Steuerneutrale Einnahmen ideeller Bereich:3220-3249 Spenden:3220 Erhaltene Spenden / Zuwendungen
+account 3 Erfolgskonten für ertragsteuerneutrale Posten:3200-3899 ERTRAGSNEUTRALE POSTEN:3200-3399 Ideeller Bereich:3200 Steuerneutrale Einnahmen ideeller Bereich:3220-3249 Spenden:3220 Erhaltene Spenden / Zuwendungen:3220 Erhaltene Spenden / Zuwendungen
     note Erhaltene Spenden und Zuwendungen
     alias 3220 Erhaltene Spenden / Zuwendungen
     alias 3220
@@ -2742,7 +2742,7 @@ account 3 Erfolgskonten für ertragsteuerneutrale Posten:3200-3899 ERTRAGSNEUTRA
     alias 3240 Ertrag aus Spendenverbrauch
     alias 3240
 
-account 3 Erfolgskonten für ertragsteuerneutrale Posten:3200-3899 ERTRAGSNEUTRALE POSTEN:3200-3399 Ideeller Bereich:3250 Nicht abziehbare Ausgaben Bereich 2000
+account 3 Erfolgskonten für ertragsteuerneutrale Posten:3200-3899 ERTRAGSNEUTRALE POSTEN:3200-3399 Ideeller Bereich:3250 Nicht abziehbare Ausgaben Bereich 2000:3250 Nicht abziehbare Ausgaben Bereich 2000
     note Nicht abziehbare Ausgaben Bereich 2000
     alias 3250 Nicht abziehbare Ausgaben Bereich 2000
     alias 3250
@@ -2762,7 +2762,7 @@ account 3 Erfolgskonten für ertragsteuerneutrale Posten:3200-3899 ERTRAGSNEUTRA
     alias 3260 Erbschaft-, Schenkungsteuer
     alias 3260
 
-account 3 Erfolgskonten für ertragsteuerneutrale Posten:3200-3899 ERTRAGSNEUTRALE POSTEN:3400-3499 Vermögensverwaltung:3400 Steuerneutrale Einnahmen Bereich 4000
+account 3 Erfolgskonten für ertragsteuerneutrale Posten:3200-3899 ERTRAGSNEUTRALE POSTEN:3400-3499 Vermögensverwaltung:3400 Steuerneutrale Einnahmen Bereich 4000:3400 Steuerneutrale Einnahmen Bereich 4000
     note Steuerneutrale Einnahmen Bereich 4000
     alias 3400 Steuerneutrale Einnahmen Bereich 4000
     alias 3400
@@ -2797,7 +2797,7 @@ account 3 Erfolgskonten für ertragsteuerneutrale Posten:3200-3899 ERTRAGSNEUTRA
     alias 3415 Ertrag aus pauschaler Vorsteuer
     alias 3415
 
-account 3 Erfolgskonten für ertragsteuerneutrale Posten:3200-3899 ERTRAGSNEUTRALE POSTEN:3400-3499 Vermögensverwaltung:3400 Steuerneutrale Einnahmen Bereich 4000:3420 Verkaufserlöse Vermögensverwaltung
+account 3 Erfolgskonten für ertragsteuerneutrale Posten:3200-3899 ERTRAGSNEUTRALE POSTEN:3400-3499 Vermögensverwaltung:3400 Steuerneutrale Einnahmen Bereich 4000:3420 Verkaufserlöse Vermögensverwaltung:3420 Verkaufserlöse Vermögensverwaltung
     note Erträge aus dem Abgang von Gegenständen des Anlagevermögens ertragsteuerfrei
     alias 3420 Verkaufserlöse Vermögensverwaltung
     alias 3420
@@ -2822,7 +2822,7 @@ account 3 Erfolgskonten für ertragsteuerneutrale Posten:3200-3899 ERTRAGSNEUTRA
     alias 3424 Verkaufserlöse Wertpapiere
     alias 3424
 
-account 3 Erfolgskonten für ertragsteuerneutrale Posten:3200-3899 ERTRAGSNEUTRALE POSTEN:3400-3499 Vermögensverwaltung:3450 Nicht abziehbare Ausgaben Bereich 4000
+account 3 Erfolgskonten für ertragsteuerneutrale Posten:3200-3899 ERTRAGSNEUTRALE POSTEN:3400-3499 Vermögensverwaltung:3450 Nicht abziehbare Ausgaben Bereich 4000:3450 Nicht abziehbare Ausgaben Bereich 4000
     note Nicht abziehbare Ausgaben Bereich 4000
     alias 3450 Nicht abziehbare Ausgaben Bereich 4000
     alias 3450
@@ -2847,7 +2847,7 @@ account 3 Erfolgskonten für ertragsteuerneutrale Posten:3200-3899 ERTRAGSNEUTRA
     alias 3455 Nicht abzugsfähige Bewirtungskosten
     alias 3455
 
-account 3 Erfolgskonten für ertragsteuerneutrale Posten:3200-3899 ERTRAGSNEUTRALE POSTEN:3600-3699 Sonstige Zweckbetriebe:3600 Steuerneutrale Einnahmen Bereich 6000
+account 3 Erfolgskonten für ertragsteuerneutrale Posten:3200-3899 ERTRAGSNEUTRALE POSTEN:3600-3699 Sonstige Zweckbetriebe:3600 Steuerneutrale Einnahmen Bereich 6000:3600 Steuerneutrale Einnahmen Bereich 6000
     note Steuerneutrale Einnahmen Bereich 6000
     alias 3600 Steuerneutrale Einnahmen Bereich 6000
     alias 3600
@@ -2857,7 +2857,7 @@ account 3 Erfolgskonten für ertragsteuerneutrale Posten:3200-3899 ERTRAGSNEUTRA
     alias 3615 Ertrag aus pauschaler Vorsteuer
     alias 3615
 
-account 3 Erfolgskonten für ertragsteuerneutrale Posten:3200-3899 ERTRAGSNEUTRALE POSTEN:3600-3699 Sonstige Zweckbetriebe:3650 Nicht abziehbare Ausgaben Bereich 6000
+account 3 Erfolgskonten für ertragsteuerneutrale Posten:3200-3899 ERTRAGSNEUTRALE POSTEN:3600-3699 Sonstige Zweckbetriebe:3650 Nicht abziehbare Ausgaben Bereich 6000:3650 Nicht abziehbare Ausgaben Bereich 6000
     note Nicht abziehbare Ausgaben Bereich 6000
     alias 3650 Nicht abziehbare Ausgaben Bereich 6000
     alias 3650
@@ -2882,7 +2882,7 @@ account 3 Erfolgskonten für ertragsteuerneutrale Posten:3200-3899 ERTRAGSNEUTRA
     alias 3690 Umsatzsteuer auf unentgeltliche Wertabgaben
     alias 3690
 
-account 3 Erfolgskonten für ertragsteuerneutrale Posten:3200-3899 ERTRAGSNEUTRALE POSTEN:3800-3899 Sonstige wirtschaftliche Geschäftsbetriebe:3800 Steuerneutrale Einnahmen Bereich 8000
+account 3 Erfolgskonten für ertragsteuerneutrale Posten:3200-3899 ERTRAGSNEUTRALE POSTEN:3800-3899 Sonstige wirtschaftliche Geschäftsbetriebe:3800 Steuerneutrale Einnahmen Bereich 8000:3800 Steuerneutrale Einnahmen Bereich 8000
     note Steuerneutrale Einnahmen Bereich 8000
     alias 3800 Steuerneutrale Einnahmen Bereich 8000
     alias 3800
@@ -2902,7 +2902,7 @@ account 3 Erfolgskonten für ertragsteuerneutrale Posten:3200-3899 ERTRAGSNEUTRA
     alias 3820 Erhaltene Steuerzinsen auf KSt
     alias 3820
 
-account 3 Erfolgskonten für ertragsteuerneutrale Posten:3200-3899 ERTRAGSNEUTRALE POSTEN:3800-3899 Sonstige wirtschaftliche Geschäftsbetriebe:3850 Nicht abziehb. Ausg. zu Bereich 8000
+account 3 Erfolgskonten für ertragsteuerneutrale Posten:3200-3899 ERTRAGSNEUTRALE POSTEN:3800-3899 Sonstige wirtschaftliche Geschäftsbetriebe:3850 Nicht abziehb. Ausg. zu Bereich 8000:3850 Nicht abziehb. Ausg. zu Bereich 8000
     note Nicht abziehbare Ausgaben zu Bereich 8000
     alias 3850 Nicht abziehb. Ausg. zu Bereich 8000
     alias 3850
@@ -3042,7 +3042,7 @@ account 3 Erfolgskonten für ertragsteuerneutrale Posten:3900-3999 ERGEBNISVERWE
     alias 3967 Einstellungen in sonstige Rücklagen
     alias 3967
 
-account 4 Erfolgskonten für Vermögensverwaltung:4000-4399 EINNAHMEN GV:4000 Steuerfreie Einnahmen gemeinnütziger Vereine aus Vermögensverwaltung
+account 4 Erfolgskonten für Vermögensverwaltung:4000-4399 EINNAHMEN GV:4000 Steuerfreie Einnahmen gemeinnütziger Vereine aus Vermögensverwaltung:4000 Steuerfreie Einnahmen gemeinnütziger Vereine aus Vermögensverwaltung
     note Sonstige ertragsteuerfreie Einnahmen gemeinnütziger Vereine (gV)
     alias 4000 Steuerfreie Einnahmen gemeinnütziger Vereine aus Vermögensverwaltung
     alias 4000
@@ -3097,7 +3097,7 @@ account 4 Erfolgskonten für Vermögensverwaltung:4000-4399 EINNAHMEN GV:4110-41
     alias 4111 Miet- und Pachterträge 7% USt
     alias 4111
 
-account 4 Erfolgskonten für Vermögensverwaltung:4000-4399 EINNAHMEN GV:4110-4122 Miet- und Pachterträge:4120 Einnahmen aus Vermietung für längere Dauer
+account 4 Erfolgskonten für Vermögensverwaltung:4000-4399 EINNAHMEN GV:4110-4122 Miet- und Pachterträge:4120 Einnahmen aus Vermietung für längere Dauer:4120 Einnahmen aus Vermietung für längere Dauer
     note Einnahmen aus Vermietung für längere Dauer
     alias 4120 Einnahmen aus Vermietung für längere Dauer
     alias 4120
@@ -3127,7 +3127,7 @@ account 4 Erfolgskonten für Vermögensverwaltung:4000-4399 EINNAHMEN GV:4150-41
     alias 4152 Kursgewinne aus Wertpapieren
     alias 4152
 
-account 4 Erfolgskonten für Vermögensverwaltung:4000-4399 EINNAHMEN GV:4200-4203 Erträge Werbung:4200 Erlöse von Werbeunternehmen
+account 4 Erfolgskonten für Vermögensverwaltung:4000-4399 EINNAHMEN GV:4200-4203 Erträge Werbung:4200 Erlöse von Werbeunternehmen:4200 Erlöse von Werbeunternehmen
     note Erlöse von Werbeunternehmen
     alias 4200 Erlöse von Werbeunternehmen
     alias 4200
@@ -3147,7 +3147,7 @@ account 4 Erfolgskonten für Vermögensverwaltung:4000-4399 EINNAHMEN GV:4200-42
     alias 4203 Übertragene Lautsprecherwerbung
     alias 4203
 
-account 4 Erfolgskonten für Vermögensverwaltung:4400-4499 EINNAHMEN NGV:4400 Steuerpflichtige Einnahmen
+account 4 Erfolgskonten für Vermögensverwaltung:4400-4499 EINNAHMEN NGV:4400 Steuerpflichtige Einnahmen:4400 Steuerpflichtige Einnahmen
     note Sonstige ertragsteuerpflichtige Einnahmen nicht gemeinnütziger Vereine (ngV)
     alias 4400 Steuerpflichtige Einnahmen
     alias 4400
@@ -3247,12 +3247,12 @@ account 4 Erfolgskonten für Vermögensverwaltung:4500-4999 AUSGABEN / WERBUNGSK
     alias 4504 Abschreibungen auf den Sammelposten Wirtschaftsgüter
     alias 4504
 
-account 4 Erfolgskonten für Vermögensverwaltung:4500-4999 AUSGABEN / WERBUNGSKOSTEN:4510 Ausgaben Bereich 4000
+account 4 Erfolgskonten für Vermögensverwaltung:4500-4999 AUSGABEN / WERBUNGSKOSTEN:4510 Ausgaben Bereich 4000:4510 Ausgaben Bereich 4000
     note Sonstige Ausgaben
     alias 4510 Ausgaben Bereich 4000
     alias 4510
 
-account 4 Erfolgskonten für Vermögensverwaltung:4500-4999 AUSGABEN / WERBUNGSKOSTEN:4510 Ausgaben Bereich 4000:4506 Kalkulatorische Abschreibungen
+account 4 Erfolgskonten für Vermögensverwaltung:4500-4999 AUSGABEN / WERBUNGSKOSTEN:4510 Ausgaben Bereich 4000:4506 Kalkulatorische Abschreibungen:4506 Kalkulatorische Abschreibungen
     note Kalkulatorische Abschreibungen
     alias 4506 Kalkulatorische Abschreibungen
     alias 4506
@@ -3312,7 +3312,7 @@ account 4 Erfolgskonten für Vermögensverwaltung:4500-4999 AUSGABEN / WERBUNGSK
     alias 4712 Nebenkosten des Geldverkehrs
     alias 4712
 
-account 4 Erfolgskonten für Vermögensverwaltung:4500-4999 AUSGABEN / WERBUNGSKOSTEN:4510 Ausgaben Bereich 4000:4750 Grundstücksaufwendungen
+account 4 Erfolgskonten für Vermögensverwaltung:4500-4999 AUSGABEN / WERBUNGSKOSTEN:4510 Ausgaben Bereich 4000:4750 Grundstücksaufwendungen:4750 Grundstücksaufwendungen
     note Grundstücksaufwendungen
     alias 4750 Grundstücksaufwendungen
     alias 4750
@@ -3332,7 +3332,7 @@ account 4 Erfolgskonten für Vermögensverwaltung:4500-4999 AUSGABEN / WERBUNGSK
     alias 4894 Rechts- und Beratungskosten
     alias 4894
 
-account 4 Erfolgskonten für Vermögensverwaltung:4500-4999 AUSGABEN / WERBUNGSKOSTEN:4510 Ausgaben Bereich 4000:4900 Sonstige Kosten Vermögensverwaltung
+account 4 Erfolgskonten für Vermögensverwaltung:4500-4999 AUSGABEN / WERBUNGSKOSTEN:4510 Ausgaben Bereich 4000:4900 Sonstige Kosten Vermögensverwaltung:4900 Sonstige Kosten Vermögensverwaltung
     note Sonstige Kosten Vermögensverwaltung
     alias 4900 Sonstige Kosten Vermögensverwaltung
     alias 4900
@@ -3387,7 +3387,7 @@ account 4 Erfolgskonten für Vermögensverwaltung:4500-4999 AUSGABEN / WERBUNGSK
     alias 4968 Bewirtungskosten
     alias 4968
 
-account 4 Erfolgskonten für Vermögensverwaltung:4500-4999 AUSGABEN / WERBUNGSKOSTEN:4510 Ausgaben Bereich 4000:4970 Reisekosten Arbeitnehmer
+account 4 Erfolgskonten für Vermögensverwaltung:4500-4999 AUSGABEN / WERBUNGSKOSTEN:4510 Ausgaben Bereich 4000:4970 Reisekosten Arbeitnehmer:4970 Reisekosten Arbeitnehmer
     note Reisekosten Arbeitnehmer
     alias 4970 Reisekosten Arbeitnehmer
     alias 4970
@@ -3402,7 +3402,7 @@ account 4 Erfolgskonten für Vermögensverwaltung:4500-4999 AUSGABEN / WERBUNGSK
     alias 4972 Reisekosten Arbeitnehmer Übernachtungsaufwand
     alias 4972
 
-account 4 Erfolgskonten für Vermögensverwaltung:4500-4999 AUSGABEN / WERBUNGSKOSTEN:4510 Ausgaben Bereich 4000:4970 Reisekosten Arbeitnehmer:4973 Reisekosten Arbeitnehmer Fahrtkosten
+account 4 Erfolgskonten für Vermögensverwaltung:4500-4999 AUSGABEN / WERBUNGSKOSTEN:4510 Ausgaben Bereich 4000:4970 Reisekosten Arbeitnehmer:4973 Reisekosten Arbeitnehmer Fahrtkosten:4973 Reisekosten Arbeitnehmer Fahrtkosten
     note Reisekosten Arbeitnehmer Fahrtkosten
     alias 4973 Reisekosten Arbeitnehmer Fahrtkosten
     alias 4973
@@ -3417,7 +3417,7 @@ account 4 Erfolgskonten für Vermögensverwaltung:4500-4999 AUSGABEN / WERBUNGSK
     alias 4980-4999 Personalaufwand
     alias 4980-4999
 
-account 4 Erfolgskonten für Vermögensverwaltung:4500-4999 AUSGABEN / WERBUNGSKOSTEN:4980-4999 Personalaufwand:4980 Löhne und Gehälter
+account 4 Erfolgskonten für Vermögensverwaltung:4500-4999 AUSGABEN / WERBUNGSKOSTEN:4980-4999 Personalaufwand:4980 Löhne und Gehälter:4980 Löhne und Gehälter
     note Löhne und Gehälter
     alias 4980 Löhne und Gehälter
     alias 4980
@@ -3442,7 +3442,7 @@ account 4 Erfolgskonten für Vermögensverwaltung:4500-4999 AUSGABEN / WERBUNGSK
     alias 4991 Aufwendungen für Altersversorgung
     alias 4991
 
-account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6000-6499 SONSTIGE ZWECKBETRIEBE 1:6000-6099 EINNAHMEN / ERTRÄGE:6000 Umsatzerlöse
+account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6000-6499 SONSTIGE ZWECKBETRIEBE 1:6000-6099 EINNAHMEN / ERTRÄGE:6000 Umsatzerlöse:6000 Umsatzerlöse
     note Umsatzerlöse
     alias 6000 Umsatzerlöse
     alias 6000
@@ -3492,7 +3492,7 @@ account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 S
     alias 6050 Bestandsveränderung
     alias 6050
 
-account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6000-6499 SONSTIGE ZWECKBETRIEBE 1:6000-6099 EINNAHMEN / ERTRÄGE:6055 Andere aktivierte Eigenleistungen
+account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6000-6499 SONSTIGE ZWECKBETRIEBE 1:6000-6099 EINNAHMEN / ERTRÄGE:6055 Andere aktivierte Eigenleistungen:6055 Andere aktivierte Eigenleistungen
     note Andere aktivierte Eigenleistungen
     alias 6055 Andere aktivierte Eigenleistungen
     alias 6055
@@ -3502,7 +3502,7 @@ account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 S
     alias 6059 Aktivierte Eigenleistungen
     alias 6059
 
-account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6000-6499 SONSTIGE ZWECKBETRIEBE 1:6000-6099 EINNAHMEN / ERTRÄGE:6060 Sonstige betriebliche Erträge
+account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6000-6499 SONSTIGE ZWECKBETRIEBE 1:6000-6099 EINNAHMEN / ERTRÄGE:6060 Sonstige betriebliche Erträge:6060 Sonstige betriebliche Erträge
     note Sonstige betriebliche Erträge
     alias 6060 Sonstige betriebliche Erträge
     alias 6060
@@ -3542,7 +3542,7 @@ account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 S
     alias 6180 Aufwendungen für bezogene Leistungen
     alias 6180
 
-account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6000-6499 SONSTIGE ZWECKBETRIEBE 1:6170-6499 AUSGABEN / AUFWENDUNGEN:6200-6279 Personalaufwand:6200-6219+6255+6260 Löhne und Gehälter:6200 Löhne und Gehälter
+account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6000-6499 SONSTIGE ZWECKBETRIEBE 1:6170-6499 AUSGABEN / AUFWENDUNGEN:6200-6279 Personalaufwand:6200-6219+6255+6260 Löhne und Gehälter:6200 Löhne und Gehälter:6200 Löhne und Gehälter
     note Löhne und Gehälter
     alias 6200 Löhne und Gehälter
     alias 6200
@@ -3572,7 +3572,7 @@ account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 S
     alias 6260 Freiwillige soziale Aufwendungen
     alias 6260
 
-account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6000-6499 SONSTIGE ZWECKBETRIEBE 1:6170-6499 AUSGABEN / AUFWENDUNGEN:6200-6279 Personalaufwand:6250 Soziale Abgaben
+account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6000-6499 SONSTIGE ZWECKBETRIEBE 1:6170-6499 AUSGABEN / AUFWENDUNGEN:6200-6279 Personalaufwand:6250 Soziale Abgaben:6250 Soziale Abgaben
     note Gesetzliche soziale Aufwendungen
     alias 6250 Soziale Abgaben
     alias 6250
@@ -3607,12 +3607,12 @@ account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 S
     alias 6290 Abschreibungen auf Umlaufvermögen
     alias 6290
 
-account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6000-6499 SONSTIGE ZWECKBETRIEBE 1:6170-6499 AUSGABEN / AUFWENDUNGEN:6300 Sonstige betriebliche Aufwendungen
+account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6000-6499 SONSTIGE ZWECKBETRIEBE 1:6170-6499 AUSGABEN / AUFWENDUNGEN:6300 Sonstige betriebliche Aufwendungen:6300 Sonstige betriebliche Aufwendungen
     note Sonstige betriebliche Aufwendungen
     alias 6300 Sonstige betriebliche Aufwendungen
     alias 6300
 
-account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6000-6499 SONSTIGE ZWECKBETRIEBE 1:6170-6499 AUSGABEN / AUFWENDUNGEN:6300 Sonstige betriebliche Aufwendungen:6295 Kalkulatorische Abschreibungen
+account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6000-6499 SONSTIGE ZWECKBETRIEBE 1:6170-6499 AUSGABEN / AUFWENDUNGEN:6300 Sonstige betriebliche Aufwendungen:6295 Kalkulatorische Abschreibungen:6295 Kalkulatorische Abschreibungen
     note Kalkulatorische Abschreibungen
     alias 6295 Kalkulatorische Abschreibungen
     alias 6295
@@ -3642,12 +3642,12 @@ account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 S
     alias 6305 Bewirtungskosten
     alias 6305
 
-account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6000-6499 SONSTIGE ZWECKBETRIEBE 1:6170-6499 AUSGABEN / AUFWENDUNGEN:6300 Sonstige betriebliche Aufwendungen:6310 Reisekosten
+account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6000-6499 SONSTIGE ZWECKBETRIEBE 1:6170-6499 AUSGABEN / AUFWENDUNGEN:6300 Sonstige betriebliche Aufwendungen:6310 Reisekosten:6310 Reisekosten
     note Reisekosten
     alias 6310 Reisekosten
     alias 6310
 
-account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6000-6499 SONSTIGE ZWECKBETRIEBE 1:6170-6499 AUSGABEN / AUFWENDUNGEN:6300 Sonstige betriebliche Aufwendungen:6310 Reisekosten:6320 Reisekosten Arbeitnehmer
+account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6000-6499 SONSTIGE ZWECKBETRIEBE 1:6170-6499 AUSGABEN / AUFWENDUNGEN:6300 Sonstige betriebliche Aufwendungen:6310 Reisekosten:6320 Reisekosten Arbeitnehmer:6320 Reisekosten Arbeitnehmer
     note Reisekosten Arbeitnehmer
     alias 6320 Reisekosten Arbeitnehmer
     alias 6320
@@ -3662,7 +3662,7 @@ account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 S
     alias 6321 Reisekosten Arbeitnehmer Übernachtungsaufwand
     alias 6321
 
-account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6000-6499 SONSTIGE ZWECKBETRIEBE 1:6170-6499 AUSGABEN / AUFWENDUNGEN:6300 Sonstige betriebliche Aufwendungen:6310 Reisekosten:6320 Reisekosten Arbeitnehmer:6322 Reisekosten Arbeitnehmer Fahrtkosten
+account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6000-6499 SONSTIGE ZWECKBETRIEBE 1:6170-6499 AUSGABEN / AUFWENDUNGEN:6300 Sonstige betriebliche Aufwendungen:6310 Reisekosten:6320 Reisekosten Arbeitnehmer:6322 Reisekosten Arbeitnehmer Fahrtkosten:6322 Reisekosten Arbeitnehmer Fahrtkosten
     note Reisekosten Arbeitnehmer Fahrtkosten
     alias 6322 Reisekosten Arbeitnehmer Fahrtkosten
     alias 6322
@@ -3707,7 +3707,7 @@ account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 S
     alias 6334 Sonstige Raumkosten
     alias 6334
 
-account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6000-6499 SONSTIGE ZWECKBETRIEBE 1:6170-6499 AUSGABEN / AUFWENDUNGEN:6300 Sonstige betriebliche Aufwendungen:6336 Musikkosten
+account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6000-6499 SONSTIGE ZWECKBETRIEBE 1:6170-6499 AUSGABEN / AUFWENDUNGEN:6300 Sonstige betriebliche Aufwendungen:6336 Musikkosten:6336 Musikkosten
     note Musikkosten
     alias 6336 Musikkosten
     alias 6336
@@ -3752,7 +3752,7 @@ account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 S
     alias 6346 Repräsentationskosten
     alias 6346
 
-account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6000-6499 SONSTIGE ZWECKBETRIEBE 1:6170-6499 AUSGABEN / AUFWENDUNGEN:6300 Sonstige betriebliche Aufwendungen:6350 Fahrzeuge, Transportmittel
+account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6000-6499 SONSTIGE ZWECKBETRIEBE 1:6170-6499 AUSGABEN / AUFWENDUNGEN:6300 Sonstige betriebliche Aufwendungen:6350 Fahrzeuge, Transportmittel:6350 Fahrzeuge, Transportmittel
     note Fahrzeuge, Transportmittel
     alias 6350 Fahrzeuge, Transportmittel
     alias 6350
@@ -3812,7 +3812,7 @@ account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 S
     alias 6385 Aufzuteilende Posten
     alias 6385
 
-account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6000-6499 SONSTIGE ZWECKBETRIEBE 1:6170-6499 AUSGABEN / AUFWENDUNGEN:6450 Zinsen und ähnliche Aufwendungen
+account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6000-6499 SONSTIGE ZWECKBETRIEBE 1:6170-6499 AUSGABEN / AUFWENDUNGEN:6450 Zinsen und ähnliche Aufwendungen:6450 Zinsen und ähnliche Aufwendungen
     note Zinsen und ähnliche Aufwendungen
     alias 6450 Zinsen und ähnliche Aufwendungen
     alias 6450
@@ -3827,12 +3827,12 @@ account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 S
     alias 6475 Sonstige Steuern
     alias 6475
 
-account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6500-6989 SONSTIGE ZWECKBETRIEBE 2:6500-6669 EINNAHMEN / ERTRÄGE:6500 Umsatzerlöse
+account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6500-6989 SONSTIGE ZWECKBETRIEBE 2:6500-6669 EINNAHMEN / ERTRÄGE:6500 Umsatzerlöse:6500 Umsatzerlöse
     note Umsatzerlöse
     alias 6500 Umsatzerlöse
     alias 6500
 
-account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6500-6989 SONSTIGE ZWECKBETRIEBE 2:6500-6669 EINNAHMEN / ERTRÄGE:6500 Umsatzerlöse:6505 Umsatzerlöse 0%
+account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6500-6989 SONSTIGE ZWECKBETRIEBE 2:6500-6669 EINNAHMEN / ERTRÄGE:6500 Umsatzerlöse:6505 Umsatzerlöse 0%:6505 Umsatzerlöse 0%
     note Umsatzerlöse 0% USt
     alias 6505 Umsatzerlöse 0%
     alias 6505
@@ -3877,7 +3877,7 @@ account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 S
     alias 6550 Bestandsveränderung
     alias 6550
 
-account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6500-6989 SONSTIGE ZWECKBETRIEBE 2:6500-6669 EINNAHMEN / ERTRÄGE:6555 Andere aktivierte Eigenleistungen
+account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6500-6989 SONSTIGE ZWECKBETRIEBE 2:6500-6669 EINNAHMEN / ERTRÄGE:6555 Andere aktivierte Eigenleistungen:6555 Andere aktivierte Eigenleistungen
     note Andere aktivierte Eigenleistungen
     alias 6555 Andere aktivierte Eigenleistungen
     alias 6555
@@ -3887,7 +3887,7 @@ account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 S
     alias 6559 Aktivierte Eigenleistungen
     alias 6559
 
-account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6500-6989 SONSTIGE ZWECKBETRIEBE 2:6500-6669 EINNAHMEN / ERTRÄGE:6560 Sonstige betriebliche Erträge
+account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6500-6989 SONSTIGE ZWECKBETRIEBE 2:6500-6669 EINNAHMEN / ERTRÄGE:6560 Sonstige betriebliche Erträge:6560 Sonstige betriebliche Erträge
     note Sonstige betriebliche Erträge
     alias 6560 Sonstige betriebliche Erträge
     alias 6560
@@ -3927,7 +3927,7 @@ account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 S
     alias 6680 Aufwendungen für bezogene Leistungen
     alias 6680
 
-account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6500-6989 SONSTIGE ZWECKBETRIEBE 2:6670-6989 AUSGABEN / AUFWENDUNGEN:6700-6779 Personalaufwand:6700 Löhne und Gehälter
+account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6500-6989 SONSTIGE ZWECKBETRIEBE 2:6670-6989 AUSGABEN / AUFWENDUNGEN:6700-6779 Personalaufwand:6700 Löhne und Gehälter:6700 Löhne und Gehälter
     note Löhne und Gehälter
     alias 6700 Löhne und Gehälter
     alias 6700
@@ -3957,7 +3957,7 @@ account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 S
     alias 6760 Freiwillige soziale Aufwendungen
     alias 6760
 
-account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6500-6989 SONSTIGE ZWECKBETRIEBE 2:6670-6989 AUSGABEN / AUFWENDUNGEN:6700-6779 Personalaufwand:6750 Soziale Abgaben
+account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6500-6989 SONSTIGE ZWECKBETRIEBE 2:6670-6989 AUSGABEN / AUFWENDUNGEN:6700-6779 Personalaufwand:6750 Soziale Abgaben:6750 Soziale Abgaben
     note Gesetzliche soziale Aufwendungen
     alias 6750 Soziale Abgaben
     alias 6750
@@ -3992,12 +3992,12 @@ account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 S
     alias 6790 Abschreibungen auf Umlaufvermögen
     alias 6790
 
-account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6500-6989 SONSTIGE ZWECKBETRIEBE 2:6670-6989 AUSGABEN / AUFWENDUNGEN:6800 Sonstige betriebliche Aufwendungen
+account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6500-6989 SONSTIGE ZWECKBETRIEBE 2:6670-6989 AUSGABEN / AUFWENDUNGEN:6800 Sonstige betriebliche Aufwendungen:6800 Sonstige betriebliche Aufwendungen
     note Sonstige betriebliche Aufwendungen
     alias 6800 Sonstige betriebliche Aufwendungen
     alias 6800
 
-account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6500-6989 SONSTIGE ZWECKBETRIEBE 2:6670-6989 AUSGABEN / AUFWENDUNGEN:6800 Sonstige betriebliche Aufwendungen:6795 Kalkulatorische Abschreibungen
+account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6500-6989 SONSTIGE ZWECKBETRIEBE 2:6670-6989 AUSGABEN / AUFWENDUNGEN:6800 Sonstige betriebliche Aufwendungen:6795 Kalkulatorische Abschreibungen:6795 Kalkulatorische Abschreibungen
     note Kalkulatorische Abschreibungen
     alias 6795 Kalkulatorische Abschreibungen
     alias 6795
@@ -4012,12 +4012,12 @@ account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 S
     alias 6805 Bewirtungskosten
     alias 6805
 
-account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6500-6989 SONSTIGE ZWECKBETRIEBE 2:6670-6989 AUSGABEN / AUFWENDUNGEN:6800 Sonstige betriebliche Aufwendungen:6810 Reisekosten
+account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6500-6989 SONSTIGE ZWECKBETRIEBE 2:6670-6989 AUSGABEN / AUFWENDUNGEN:6800 Sonstige betriebliche Aufwendungen:6810 Reisekosten:6810 Reisekosten
     note Reisekosten
     alias 6810 Reisekosten
     alias 6810
 
-account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6500-6989 SONSTIGE ZWECKBETRIEBE 2:6670-6989 AUSGABEN / AUFWENDUNGEN:6800 Sonstige betriebliche Aufwendungen:6810 Reisekosten:6820 Reisekosten Arbeitnehmer
+account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6500-6989 SONSTIGE ZWECKBETRIEBE 2:6670-6989 AUSGABEN / AUFWENDUNGEN:6800 Sonstige betriebliche Aufwendungen:6810 Reisekosten:6820 Reisekosten Arbeitnehmer:6820 Reisekosten Arbeitnehmer
     note Reisekosten Arbeitnehmer
     alias 6820 Reisekosten Arbeitnehmer
     alias 6820
@@ -4032,7 +4032,7 @@ account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 S
     alias 6821 Reisekosten Arbeitnehmer Übernachtungsaufwand
     alias 6821
 
-account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6500-6989 SONSTIGE ZWECKBETRIEBE 2:6670-6989 AUSGABEN / AUFWENDUNGEN:6800 Sonstige betriebliche Aufwendungen:6810 Reisekosten:6820 Reisekosten Arbeitnehmer:6822 Reisekosten Arbeitnehmer Fahrtkosten
+account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6500-6989 SONSTIGE ZWECKBETRIEBE 2:6670-6989 AUSGABEN / AUFWENDUNGEN:6800 Sonstige betriebliche Aufwendungen:6810 Reisekosten:6820 Reisekosten Arbeitnehmer:6822 Reisekosten Arbeitnehmer Fahrtkosten:6822 Reisekosten Arbeitnehmer Fahrtkosten
     note Reisekosten Arbeitnehmer Fahrtkosten
     alias 6822 Reisekosten Arbeitnehmer Fahrtkosten
     alias 6822
@@ -4097,7 +4097,7 @@ account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 S
     alias 6845 Geschenke
     alias 6845
 
-account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6500-6989 SONSTIGE ZWECKBETRIEBE 2:6670-6989 AUSGABEN / AUFWENDUNGEN:6800 Sonstige betriebliche Aufwendungen:6850 Fahrzeuge, Transportmittel
+account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6500-6989 SONSTIGE ZWECKBETRIEBE 2:6670-6989 AUSGABEN / AUFWENDUNGEN:6800 Sonstige betriebliche Aufwendungen:6850 Fahrzeuge, Transportmittel:6850 Fahrzeuge, Transportmittel
     note Fahrzeuge, Transportmittel
     alias 6850 Fahrzeuge, Transportmittel
     alias 6850
@@ -4167,7 +4167,7 @@ account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 S
     alias 6895 Kosten Darbietung Jugendlicher und Erwachsene
     alias 6895
 
-account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6500-6989 SONSTIGE ZWECKBETRIEBE 2:6670-6989 AUSGABEN / AUFWENDUNGEN:6950 Zinsen und ähnliche Aufwendungen
+account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6000-6989 SONSTIGE ZWECKBETRIEBE:6500-6989 SONSTIGE ZWECKBETRIEBE 2:6670-6989 AUSGABEN / AUFWENDUNGEN:6950 Zinsen und ähnliche Aufwendungen:6950 Zinsen und ähnliche Aufwendungen
     note Zinsen und ähnliche Aufwendungen
     alias 6950 Zinsen und ähnliche Aufwendungen
     alias 6950
@@ -4192,7 +4192,7 @@ account 6 Erfolgskonten für andere ertragssteuerfreie Zweckbetriebe:6990-6999 E
     alias 6992 Umgebuchte Ausgaben B 6000
     alias 6992
 
-account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8000-8979 SONSTIGE GESCHÄFTSBETRIEBE:8000-8499 SONSTIGE GESCHÄFTSBETRIEBE 1:8000-8149 EINNAHMEN / ERTRÄGE:8000 Einnahmen aus Umsatzerlösen
+account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8000-8979 SONSTIGE GESCHÄFTSBETRIEBE:8000-8499 SONSTIGE GESCHÄFTSBETRIEBE 1:8000-8149 EINNAHMEN / ERTRÄGE:8000 Einnahmen aus Umsatzerlösen:8000 Einnahmen aus Umsatzerlösen
     note Einnahmen aus Umsatzerlösen
     alias 8000 Einnahmen aus Umsatzerlösen
     alias 8000
@@ -4217,12 +4217,12 @@ account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8
     alias 8008 Erlöse aus Leihgebühren
     alias 8008
 
-account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8000-8979 SONSTIGE GESCHÄFTSBETRIEBE:8000-8499 SONSTIGE GESCHÄFTSBETRIEBE 1:8000-8149 EINNAHMEN / ERTRÄGE:8000 Einnahmen aus Umsatzerlösen:8010 Erlöse aus Geldspielautomaten
+account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8000-8979 SONSTIGE GESCHÄFTSBETRIEBE:8000-8499 SONSTIGE GESCHÄFTSBETRIEBE 1:8000-8149 EINNAHMEN / ERTRÄGE:8000 Einnahmen aus Umsatzerlösen:8010 Erlöse aus Geldspielautomaten:8010 Erlöse aus Geldspielautomaten
     note Erlöse aus Geldspielautomaten
     alias 8010 Erlöse aus Geldspielautomaten
     alias 8010
 
-account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8000-8979 SONSTIGE GESCHÄFTSBETRIEBE:8000-8499 SONSTIGE GESCHÄFTSBETRIEBE 1:8000-8149 EINNAHMEN / ERTRÄGE:8000 Einnahmen aus Umsatzerlösen:8010 Erlöse aus Geldspielautomaten:8011 Verrechnungskonto Geldspielautomaten
+account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8000-8979 SONSTIGE GESCHÄFTSBETRIEBE:8000-8499 SONSTIGE GESCHÄFTSBETRIEBE 1:8000-8149 EINNAHMEN / ERTRÄGE:8000 Einnahmen aus Umsatzerlösen:8010 Erlöse aus Geldspielautomaten:8011 Verrechnungskonto Geldspielautomaten:8011 Verrechnungskonto Geldspielautomaten
     note Verrechnungskonto Geldspielautomaten
     alias 8011 Verrechnungskonto Geldspielautomaten
     alias 8011
@@ -4267,7 +4267,7 @@ account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8
     alias 8024 Erlöse umsatzsteuerfrei §4 Nr. 1-6 UStG
     alias 8024
 
-account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8000-8979 SONSTIGE GESCHÄFTSBETRIEBE:8000-8499 SONSTIGE GESCHÄFTSBETRIEBE 1:8000-8149 EINNAHMEN / ERTRÄGE:8000 Einnahmen aus Umsatzerlösen:8026 Erlöse 7% USt
+account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8000-8979 SONSTIGE GESCHÄFTSBETRIEBE:8000-8499 SONSTIGE GESCHÄFTSBETRIEBE 1:8000-8149 EINNAHMEN / ERTRÄGE:8000 Einnahmen aus Umsatzerlösen:8026 Erlöse 7% USt:8026 Erlöse 7% USt
     note Erlöse 7% USt
     alias 8026 Erlöse 7% USt
     alias 8026
@@ -4277,7 +4277,7 @@ account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8
     alias 8028 Erlöse Speisen / Getränke 7% USt
     alias 8028
 
-account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8000-8979 SONSTIGE GESCHÄFTSBETRIEBE:8000-8499 SONSTIGE GESCHÄFTSBETRIEBE 1:8000-8149 EINNAHMEN / ERTRÄGE:8000 Einnahmen aus Umsatzerlösen:8030 Erlöse 19% USt
+account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8000-8979 SONSTIGE GESCHÄFTSBETRIEBE:8000-8499 SONSTIGE GESCHÄFTSBETRIEBE 1:8000-8149 EINNAHMEN / ERTRÄGE:8000 Einnahmen aus Umsatzerlösen:8030 Erlöse 19% USt:8030 Erlöse 19% USt
     note Erlöse 19% USt
     alias 8030 Erlöse 19% USt
     alias 8030
@@ -4352,7 +4352,7 @@ account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8
     alias 8090 Bestandsveränderung
     alias 8090
 
-account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8000-8979 SONSTIGE GESCHÄFTSBETRIEBE:8000-8499 SONSTIGE GESCHÄFTSBETRIEBE 1:8000-8149 EINNAHMEN / ERTRÄGE:8095 Andere aktivierte Eigenleistungen
+account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8000-8979 SONSTIGE GESCHÄFTSBETRIEBE:8000-8499 SONSTIGE GESCHÄFTSBETRIEBE 1:8000-8149 EINNAHMEN / ERTRÄGE:8095 Andere aktivierte Eigenleistungen:8095 Andere aktivierte Eigenleistungen
     note Andere aktivierte Eigenleistungen
     alias 8095 Andere aktivierte Eigenleistungen
     alias 8095
@@ -4362,7 +4362,7 @@ account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8
     alias 8099 Aktivierte Eigenleistungen
     alias 8099
 
-account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8000-8979 SONSTIGE GESCHÄFTSBETRIEBE:8000-8499 SONSTIGE GESCHÄFTSBETRIEBE 1:8000-8149 EINNAHMEN / ERTRÄGE:8100 Sonstige betriebliche Erträge
+account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8000-8979 SONSTIGE GESCHÄFTSBETRIEBE:8000-8499 SONSTIGE GESCHÄFTSBETRIEBE 1:8000-8149 EINNAHMEN / ERTRÄGE:8100 Sonstige betriebliche Erträge:8100 Sonstige betriebliche Erträge
     note Sonstige betriebliche Erträge
     alias 8100 Sonstige betriebliche Erträge
     alias 8100
@@ -4407,7 +4407,7 @@ account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8
     alias 8114 Erhaltene Zinsen auf Betriebssteuern
     alias 8114
 
-account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8000-8979 SONSTIGE GESCHÄFTSBETRIEBE:8000-8499 SONSTIGE GESCHÄFTSBETRIEBE 1:8150-8499 AUSGABEN / AUFWENDUNGEN:8150-8200 Materialaufwand:8150-8156+8168-8174 Ausgaben RHB / bezogene Waren:8150 Wareneinkauf
+account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8000-8979 SONSTIGE GESCHÄFTSBETRIEBE:8000-8499 SONSTIGE GESCHÄFTSBETRIEBE 1:8150-8499 AUSGABEN / AUFWENDUNGEN:8150-8200 Materialaufwand:8150-8156+8168-8174 Ausgaben RHB / bezogene Waren:8150 Wareneinkauf:8150 Wareneinkauf
     note Ausgaben für Roh-, Hilfs- und Betriebsstoffe und für bezogene Waren
     alias 8150 Wareneinkauf
     alias 8150
@@ -4477,7 +4477,7 @@ account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8
     alias 8200 Fremdleistungen
     alias 8200
 
-account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8000-8979 SONSTIGE GESCHÄFTSBETRIEBE:8000-8499 SONSTIGE GESCHÄFTSBETRIEBE 1:8150-8499 AUSGABEN / AUFWENDUNGEN:8210-8239 Personalaufwand:8210 Löhne und Gehälter
+account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8000-8979 SONSTIGE GESCHÄFTSBETRIEBE:8000-8499 SONSTIGE GESCHÄFTSBETRIEBE 1:8150-8499 AUSGABEN / AUFWENDUNGEN:8210-8239 Personalaufwand:8210 Löhne und Gehälter:8210 Löhne und Gehälter
     note Löhne und Gehälter
     alias 8210 Löhne und Gehälter
     alias 8210
@@ -4502,7 +4502,7 @@ account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8
     alias 8234 Freiwillige soziale Aufwendungen, lohnsteuerpflichtig
     alias 8234
 
-account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8000-8979 SONSTIGE GESCHÄFTSBETRIEBE:8000-8499 SONSTIGE GESCHÄFTSBETRIEBE 1:8150-8499 AUSGABEN / AUFWENDUNGEN:8210-8239 Personalaufwand:8230 Soziale Abgaben
+account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8000-8979 SONSTIGE GESCHÄFTSBETRIEBE:8000-8499 SONSTIGE GESCHÄFTSBETRIEBE 1:8150-8499 AUSGABEN / AUFWENDUNGEN:8210-8239 Personalaufwand:8230 Soziale Abgaben:8230 Soziale Abgaben
     note Gesetzliche soziale Aufwendungen
     alias 8230 Soziale Abgaben
     alias 8230
@@ -4532,7 +4532,7 @@ account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8
     alias 8243 Abschreibungen auf den Sammelposten Wirtschaftsgüter
     alias 8243
 
-account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8000-8979 SONSTIGE GESCHÄFTSBETRIEBE:8000-8499 SONSTIGE GESCHÄFTSBETRIEBE 1:8150-8499 AUSGABEN / AUFWENDUNGEN:8240-8270 Abschreibungen:8246-8256 Sonstige betriebliche Aufwendungen:8246 Kalkulatorische Abschreibungen
+account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8000-8979 SONSTIGE GESCHÄFTSBETRIEBE:8000-8499 SONSTIGE GESCHÄFTSBETRIEBE 1:8150-8499 AUSGABEN / AUFWENDUNGEN:8240-8270 Abschreibungen:8246-8256 Sonstige betriebliche Aufwendungen:8246 Kalkulatorische Abschreibungen:8246 Kalkulatorische Abschreibungen
     note Kalkulatorische Abschreibungen
     alias 8246 Kalkulatorische Abschreibungen
     alias 8246
@@ -4632,7 +4632,7 @@ account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8
     alias 8328 Fremdfahrzeuge
     alias 8328
 
-account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8000-8979 SONSTIGE GESCHÄFTSBETRIEBE:8000-8499 SONSTIGE GESCHÄFTSBETRIEBE 1:8150-8499 AUSGABEN / AUFWENDUNGEN:8300-8499 Sonstige betriebliche Erträge und Aufwendungen:8300-8314+8318-8339 Sonstige betriebliche Aufwendungen:8330 Werbe- und Reisekosten
+account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8000-8979 SONSTIGE GESCHÄFTSBETRIEBE:8000-8499 SONSTIGE GESCHÄFTSBETRIEBE 1:8150-8499 AUSGABEN / AUFWENDUNGEN:8300-8499 Sonstige betriebliche Erträge und Aufwendungen:8300-8314+8318-8339 Sonstige betriebliche Aufwendungen:8330 Werbe- und Reisekosten:8330 Werbe- und Reisekosten
     note Werbe- und Reisekosten
     alias 8330 Werbe- und Reisekosten
     alias 8330
@@ -4647,12 +4647,12 @@ account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8
     alias 8334 Bewirtungskosten
     alias 8334
 
-account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8000-8979 SONSTIGE GESCHÄFTSBETRIEBE:8000-8499 SONSTIGE GESCHÄFTSBETRIEBE 1:8150-8499 AUSGABEN / AUFWENDUNGEN:8300-8499 Sonstige betriebliche Erträge und Aufwendungen:8300-8314+8318-8339 Sonstige betriebliche Aufwendungen:8330 Werbe- und Reisekosten:8336 Reisekosten
+account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8000-8979 SONSTIGE GESCHÄFTSBETRIEBE:8000-8499 SONSTIGE GESCHÄFTSBETRIEBE 1:8150-8499 AUSGABEN / AUFWENDUNGEN:8300-8499 Sonstige betriebliche Erträge und Aufwendungen:8300-8314+8318-8339 Sonstige betriebliche Aufwendungen:8330 Werbe- und Reisekosten:8336 Reisekosten:8336 Reisekosten
     note Reisekosten
     alias 8336 Reisekosten
     alias 8336
 
-account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8000-8979 SONSTIGE GESCHÄFTSBETRIEBE:8000-8499 SONSTIGE GESCHÄFTSBETRIEBE 1:8150-8499 AUSGABEN / AUFWENDUNGEN:8300-8499 Sonstige betriebliche Erträge und Aufwendungen:8300-8314+8318-8339 Sonstige betriebliche Aufwendungen:8330 Werbe- und Reisekosten:8336 Reisekosten:8339 Reisekosten Arbeitnehmer
+account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8000-8979 SONSTIGE GESCHÄFTSBETRIEBE:8000-8499 SONSTIGE GESCHÄFTSBETRIEBE 1:8150-8499 AUSGABEN / AUFWENDUNGEN:8300-8499 Sonstige betriebliche Erträge und Aufwendungen:8300-8314+8318-8339 Sonstige betriebliche Aufwendungen:8330 Werbe- und Reisekosten:8336 Reisekosten:8339 Reisekosten Arbeitnehmer:8339 Reisekosten Arbeitnehmer
     note Reisekosten Arbeitnehmer
     alias 8339 Reisekosten Arbeitnehmer
     alias 8339
@@ -4747,7 +4747,7 @@ account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8
     alias 8480 Sonstige Steuern
     alias 8480
 
-account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8000-8979 SONSTIGE GESCHÄFTSBETRIEBE:8500-8979 SONSTIGE GESCHÄFTSBETRIEBE 2:8500-8649 EINNAHMEN / ERTRÄGE:8500 Umsatzerlöse
+account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8000-8979 SONSTIGE GESCHÄFTSBETRIEBE:8500-8979 SONSTIGE GESCHÄFTSBETRIEBE 2:8500-8649 EINNAHMEN / ERTRÄGE:8500 Umsatzerlöse:8500 Umsatzerlöse
     note Umsatzerlöse
     alias 8500 Umsatzerlöse
     alias 8500
@@ -4762,7 +4762,7 @@ account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8
     alias 8590 Bestandsveränderung
     alias 8590
 
-account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8000-8979 SONSTIGE GESCHÄFTSBETRIEBE:8500-8979 SONSTIGE GESCHÄFTSBETRIEBE 2:8500-8649 EINNAHMEN / ERTRÄGE:8595 Andere aktivierte Eigenleistungen
+account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8000-8979 SONSTIGE GESCHÄFTSBETRIEBE:8500-8979 SONSTIGE GESCHÄFTSBETRIEBE 2:8500-8649 EINNAHMEN / ERTRÄGE:8595 Andere aktivierte Eigenleistungen:8595 Andere aktivierte Eigenleistungen
     note Andere aktivierte Eigenleistungen
     alias 8595 Andere aktivierte Eigenleistungen
     alias 8595
@@ -4772,7 +4772,7 @@ account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8
     alias 8599 Aktivierte Eigenleistungen
     alias 8599
 
-account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8000-8979 SONSTIGE GESCHÄFTSBETRIEBE:8500-8979 SONSTIGE GESCHÄFTSBETRIEBE 2:8500-8649 EINNAHMEN / ERTRÄGE:8600 Sonstige betriebliche Erträge
+account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8000-8979 SONSTIGE GESCHÄFTSBETRIEBE:8500-8979 SONSTIGE GESCHÄFTSBETRIEBE 2:8500-8649 EINNAHMEN / ERTRÄGE:8600 Sonstige betriebliche Erträge:8600 Sonstige betriebliche Erträge
     note Sonstige betriebliche Erträge
     alias 8600 Sonstige betriebliche Erträge
     alias 8600
@@ -4807,7 +4807,7 @@ account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8
     alias 8700 Aufwendungen für bezogene Leistungen
     alias 8700
 
-account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8000-8979 SONSTIGE GESCHÄFTSBETRIEBE:8500-8979 SONSTIGE GESCHÄFTSBETRIEBE 2:8650-8979 AUSGABEN / AUFWENDUNGEN:8710-8739 Personalaufwand:8710 Löhne und Gehälter
+account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8000-8979 SONSTIGE GESCHÄFTSBETRIEBE:8500-8979 SONSTIGE GESCHÄFTSBETRIEBE 2:8650-8979 AUSGABEN / AUFWENDUNGEN:8710-8739 Personalaufwand:8710 Löhne und Gehälter:8710 Löhne und Gehälter
     note Löhne und Gehälter
     alias 8710 Löhne und Gehälter
     alias 8710
@@ -4822,7 +4822,7 @@ account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8
     alias 8725 Freiwillige soziale Aufwendungen
     alias 8725
 
-account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8000-8979 SONSTIGE GESCHÄFTSBETRIEBE:8500-8979 SONSTIGE GESCHÄFTSBETRIEBE 2:8650-8979 AUSGABEN / AUFWENDUNGEN:8710-8739 Personalaufwand:8720 Soziale Abgaben
+account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8000-8979 SONSTIGE GESCHÄFTSBETRIEBE:8500-8979 SONSTIGE GESCHÄFTSBETRIEBE 2:8650-8979 AUSGABEN / AUFWENDUNGEN:8710-8739 Personalaufwand:8720 Soziale Abgaben:8720 Soziale Abgaben
     note Gesetzliche soziale Aufwendungen
     alias 8720 Soziale Abgaben
     alias 8720
@@ -4857,12 +4857,12 @@ account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8
     alias 8770 Abschreibungen auf Umlaufvermögen, unüblich hoch
     alias 8770
 
-account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8000-8979 SONSTIGE GESCHÄFTSBETRIEBE:8500-8979 SONSTIGE GESCHÄFTSBETRIEBE 2:8650-8979 AUSGABEN / AUFWENDUNGEN:8800 Sonstige betriebliche Aufwendungen
+account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8000-8979 SONSTIGE GESCHÄFTSBETRIEBE:8500-8979 SONSTIGE GESCHÄFTSBETRIEBE 2:8650-8979 AUSGABEN / AUFWENDUNGEN:8800 Sonstige betriebliche Aufwendungen:8800 Sonstige betriebliche Aufwendungen
     note Sonstige betriebliche Aufwendungen
     alias 8800 Sonstige betriebliche Aufwendungen
     alias 8800
 
-account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8000-8979 SONSTIGE GESCHÄFTSBETRIEBE:8500-8979 SONSTIGE GESCHÄFTSBETRIEBE 2:8650-8979 AUSGABEN / AUFWENDUNGEN:8800 Sonstige betriebliche Aufwendungen:8775 Kalkulatorische Abschreibungen
+account 8 Erfolgskonten für andere ertragssteuerpflichtige Geschäftsbetriebe:8000-8979 SONSTIGE GESCHÄFTSBETRIEBE:8500-8979 SONSTIGE GESCHÄFTSBETRIEBE 2:8650-8979 AUSGABEN / AUFWENDUNGEN:8800 Sonstige betriebliche Aufwendungen:8775 Kalkulatorische Abschreibungen:8775 Kalkulatorische Abschreibungen
     note Kalkulatorische Abschreibungen
     alias 8775 Kalkulatorische Abschreibungen
     alias 8775
@@ -5087,7 +5087,7 @@ account 9 Statistik- & Vortragskonten:9000-9249 STATISTISCHE KONTEN:9090 Summenv
     alias 9090 Summenvortragskonto
     alias 9090
 
-account 9 Statistik- & Vortragskonten:9000-9249 STATISTISCHE KONTEN:9240-9249 Statistische Konten für die Kapitalflussrechnung:9240 Investitionsverbindlichkeiten bei den Leistungsverbindlichkeiten
+account 9 Statistik- & Vortragskonten:9000-9249 STATISTISCHE KONTEN:9240-9249 Statistische Konten für die Kapitalflussrechnung:9240 Investitionsverbindlichkeiten bei den Leistungsverbindlichkeiten:9240 Investitionsverbindlichkeiten bei den Leistungsverbindlichkeiten
     note Investitionsverbindlichkeiten bei den Leistungsverbindlichkeiten
     alias 9240 Investitionsverbindlichkeiten bei den Leistungsverbindlichkeiten
     alias 9240
@@ -5137,7 +5137,7 @@ account 9 Statistik- & Vortragskonten:9270-9485 STATISTISCHE KONTEN FÜR IN DER 
     alias 9270 Gegenkonto zu 9273-9279 (Soll-Buchung)
     alias 9270
 
-account 9 Statistik- & Vortragskonten:9270-9485 STATISTISCHE KONTEN FÜR IN DER BILANZ AUSZUWEISENDE HAFTUNGSVERHÄLTNISSE:9271 Verbindlichkeiten aus der Begebung und Übertragung von Wechseln
+account 9 Statistik- & Vortragskonten:9270-9485 STATISTISCHE KONTEN FÜR IN DER BILANZ AUSZUWEISENDE HAFTUNGSVERHÄLTNISSE:9271 Verbindlichkeiten aus der Begebung und Übertragung von Wechseln:9271 Verbindlichkeiten aus der Begebung und Übertragung von Wechseln
     note Verbindlichkeiten aus der Begebung und Übertragung von Wechseln
     alias 9271 Verbindlichkeiten aus der Begebung und Übertragung von Wechseln
     alias 9271
@@ -5147,7 +5147,7 @@ account 9 Statistik- & Vortragskonten:9270-9485 STATISTISCHE KONTEN FÜR IN DER 
     alias 9272 Verbindlichkeiten aus der Begebung und Übertragung von Wechseln gegenüber verbundenen / assoziierten Unternehmen
     alias 9272
 
-account 9 Statistik- & Vortragskonten:9270-9485 STATISTISCHE KONTEN FÜR IN DER BILANZ AUSZUWEISENDE HAFTUNGSVERHÄLTNISSE:9273 Verbindlichkeiten aus Bürgschaften, Wechsel- und Scheckbürgschaften
+account 9 Statistik- & Vortragskonten:9270-9485 STATISTISCHE KONTEN FÜR IN DER BILANZ AUSZUWEISENDE HAFTUNGSVERHÄLTNISSE:9273 Verbindlichkeiten aus Bürgschaften, Wechsel- und Scheckbürgschaften:9273 Verbindlichkeiten aus Bürgschaften, Wechsel- und Scheckbürgschaften
     note Verbindlichkeiten aus Bürgschaften, Wechsel- und Scheckbürgschaften
     alias 9273 Verbindlichkeiten aus Bürgschaften, Wechsel- und Scheckbürgschaften
     alias 9273
@@ -5157,7 +5157,7 @@ account 9 Statistik- & Vortragskonten:9270-9485 STATISTISCHE KONTEN FÜR IN DER 
     alias 9274 Verbindlichkeiten aus Bürgschaften, Wechsel- und Scheckbürgschaften gegenüber verbundenen / assoziierten Unternehmen
     alias 9274
 
-account 9 Statistik- & Vortragskonten:9270-9485 STATISTISCHE KONTEN FÜR IN DER BILANZ AUSZUWEISENDE HAFTUNGSVERHÄLTNISSE:9275 Verbindlichkeiten aus Gewährleistungsverträgen
+account 9 Statistik- & Vortragskonten:9270-9485 STATISTISCHE KONTEN FÜR IN DER BILANZ AUSZUWEISENDE HAFTUNGSVERHÄLTNISSE:9275 Verbindlichkeiten aus Gewährleistungsverträgen:9275 Verbindlichkeiten aus Gewährleistungsverträgen
     note Verbindlichkeiten aus Gewährleistungsverträgen
     alias 9275 Verbindlichkeiten aus Gewährleistungsverträgen
     alias 9275
@@ -5167,7 +5167,7 @@ account 9 Statistik- & Vortragskonten:9270-9485 STATISTISCHE KONTEN FÜR IN DER 
     alias 9276 Verbindlichkeiten aus Gewährleistungsverträgen gegenüber verbundenen / assoziierten Unternehmen
     alias 9276
 
-account 9 Statistik- & Vortragskonten:9270-9485 STATISTISCHE KONTEN FÜR IN DER BILANZ AUSZUWEISENDE HAFTUNGSVERHÄLTNISSE:9277 Haftung aus der Bestellung von Sicherheiten für fremde Verbindlichkeiten
+account 9 Statistik- & Vortragskonten:9270-9485 STATISTISCHE KONTEN FÜR IN DER BILANZ AUSZUWEISENDE HAFTUNGSVERHÄLTNISSE:9277 Haftung aus der Bestellung von Sicherheiten für fremde Verbindlichkeiten:9277 Haftung aus der Bestellung von Sicherheiten für fremde Verbindlichkeiten
     note Haftung aus der Bestellung von Sicherheiten für fremde Verbindlichkeiten
     alias 9277 Haftung aus der Bestellung von Sicherheiten für fremde Verbindlichkeiten
     alias 9277
@@ -5187,7 +5187,7 @@ account 9 Statistik- & Vortragskonten:9270-9485 STATISTISCHE KONTEN FÜR IN DER 
     alias 9281 Verpflichtungen aus Miet- und Leasingverträgen
     alias 9281
 
-account 9 Statistik- & Vortragskonten:9270-9485 STATISTISCHE KONTEN FÜR IN DER BILANZ AUSZUWEISENDE HAFTUNGSVERHÄLTNISSE:9280-9286 Statistische Konten für die im Anhang anzugebenden sonstigen finanziellen Verpflichtungen:9283 Andere Verpflichtungen §285 Nr. 3a HGB
+account 9 Statistik- & Vortragskonten:9270-9485 STATISTISCHE KONTEN FÜR IN DER BILANZ AUSZUWEISENDE HAFTUNGSVERHÄLTNISSE:9280-9286 Statistische Konten für die im Anhang anzugebenden sonstigen finanziellen Verpflichtungen:9283 Andere Verpflichtungen §285 Nr. 3a HGB:9283 Andere Verpflichtungen §285 Nr. 3a HGB
     note Andere Verpflichtungen gemäß §285 Nr. 3a HGB
     alias 9283 Andere Verpflichtungen §285 Nr. 3a HGB
     alias 9283
