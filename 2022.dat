@@ -357,10 +357,72 @@ account 2022 SBK
 2022-12-30 * (2022.038) Kontoführung
     0955    -3,80€
     2704
-
-;2023-01-02 * Mitgliedsbeitrag c237ed78 vom 2022-12-13 (Auflösung PRAP)
-;    1990   16,00€
-;    10020
-;2023-01-02 * Abrechnung Hetzner mit Gutschrift vom 2022-12-05 (Auflösung ARAP)
-;    0990   -20,00€
-;    2810
+2022-12-31 Gewinnermittlung ideeller Bereich
+    2110    1320,00€
+    2704    -120,08€
+    2800    -158,70€
+    2810    -70,01€
+    2900    -22,00€
+    2661    -119,00€
+    3221    744,00€
+    3223    269,45€
+    3251    -35,00€
+    9882
+2022-12-31 Gewinnermittlung Vermögensverwaltung
+    4202    1500,00€
+    9884
+2022-12-31 Gewinnermittlung Zweckbetriebe
+    6670    -91,00€
+    6680    -281,48€
+    6710    -258,00€
+    6805    -2149,82€
+    6842    -17,24€
+    9886
+2022-12-31 Einstellung in freie Rücklage aus ideellem Bereich
+    3965    229,85€
+    1070
+2022-12-31 Einstellung in freie Rücklage aus Vermögensverwaltung
+    3965    500,00€
+    1070
+2022-12-31 Ergebnisverwendung
+    3953    1087,44€
+    9889
+2022-12-31 Ergebnisverwendung
+    3965    -729,85€
+    9889
+2022-12-31 Ergebnisverwendung
+    9882    1808,66€
+    9889
+2022-12-31 Ergebnisverwendung
+    9884    1500,00€
+    9889
+2022-12-31 Ergebnisverwendung
+    9886    -2797,54€
+    9889
+2022-12-31 Ergebnisverwendung
+    3963    868,71€
+    1034
+2022-12-31 Ergebnisverwendung
+    9889    868,71€
+    3963
+2022-12-31 Abschlussbuchung
+    0925    -38,46€
+    2022 SBK
+2022-12-31 Abschlussbuchung
+    0950    -155,17€
+    2022 SBK
+2022-12-31 Abschlussbuchung
+    0955    -1613,80€
+    2022 SBK
+2022-12-31 Abschlussbuchung
+    0990    -20,00€
+    2022 SBK
+2022-12-31 Abschlussbuchung
+    1034    868,71€
+    2022 SBK
+2022-12-31 Abschlussbuchung
+    1070    942,72€
+    2022 SBK
+2022-12-31 Abschlussbuchung
+    1990    16,00€
+    2022 SBK
