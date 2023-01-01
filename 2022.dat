@@ -326,7 +326,7 @@ account 2022 SBK
 2022-11-03 * (2022.036) Auszahlung Preisgelder Hackathon: Denys
     0955    -43,00€
     6710
-2022-11-11 (2022.035) Verpflegung Hackathon Obermühle
+2022-11-11 * (2022.035) Verpflegung Hackathon Obermühle
     0955    -825,00€
     6805
 2022-11-16 * (2022.036) Mitgliedsbeitrag bef8d92d
@@ -338,3 +338,29 @@ account 2022 SBK
 2022-11-30 * (2022.036) Kontoführung
     0955    -3,80€
     2704
+2022-12-05 * (2022.037) Verpflegung JUG Café Herzstück
+    0955    -142,50€
+    6805
+2022-12-05 * (2022.039) Vorauszahlung Hetzner (ARAP)
+    0950    -20,00€
+    0990
+2022-12-08 ! Beiträge offene Posten Neumitglieder
+    10020   4,00€
+    2110
+2022-12-13 * (2022.038) Mitgliedsbeitrag c237ed78 2022-Q4 und 2023 (PRAP)
+    0955   20,00€
+    10020  -4,00€
+    1990
+2022-12-30 * (2022.038) USt. Kontoführung
+    0955    -0,72€
+    2704
+2022-12-30 * (2022.038) Kontoführung
+    0955    -3,80€
+    2704
+
+;2023-01-02 * Mitgliedsbeitrag c237ed78 vom 2022-12-13 (Auflösung PRAP)
+;    1990   16,00€
+;    10020
+;2023-01-02 * Abrechnung Hetzner mit Gutschrift vom 2022-12-05 (Auflösung ARAP)
+;    0990   -20,00€
+;    2810
