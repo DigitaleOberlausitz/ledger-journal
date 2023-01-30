@@ -20,7 +20,7 @@ job("Print balance") {
     }
     container(displayName = "cat", image = "alpine") {
         shellScript {
-            content = "ls -al; ls -al ${'$'}JB_SPACE_FILE_SHARE_PATH/; cat ${'$'}JB_SPACE_FILE_SHARE_PATH/journal.html"
+            content = "ls -al; ls -al ${'$'}JB_SPACE_FILE_SHARE_PATH/"
         }
     }
     container("openjdk:11") {
