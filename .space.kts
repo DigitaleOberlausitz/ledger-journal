@@ -17,12 +17,12 @@ job("Upload artifact") {
     container(displayName = "ledger-journal", image = "dcycle/ledger:1") {
         shellScript {
             content = """
-                ledger -f 2018.dat xml > ${'$'}JB_SPACE_FILE_SHARE_PATH/2018.xml
-                ledger -f 2019.dat xml > ${'$'}JB_SPACE_FILE_SHARE_PATH/2019.xml
-                ledger -f 2020.dat xml > ${'$'}JB_SPACE_FILE_SHARE_PATH/2020.xml
-                ledger -f 2021.dat xml > ${'$'}JB_SPACE_FILE_SHARE_PATH/2021.xml
-                ledger -f 2022.dat xml > ${'$'}JB_SPACE_FILE_SHARE_PATH/2022.xml
-                ledger -f "${'$'}(date +%Y).dat" xml > "${'$'}JB_SPACE_FILE_SHARE_PATH/${'$'}(date +%Y).xml"
+                ledger -y %F -f 2018.dat xml > ${'$'}JB_SPACE_FILE_SHARE_PATH/2018.xml
+                ledger -y %F -f 2019.dat xml > ${'$'}JB_SPACE_FILE_SHARE_PATH/2019.xml
+                ledger -y %F -f 2020.dat xml > ${'$'}JB_SPACE_FILE_SHARE_PATH/2020.xml
+                ledger -y %F -f 2021.dat xml > ${'$'}JB_SPACE_FILE_SHARE_PATH/2021.xml
+                ledger -y %F -f 2022.dat xml > ${'$'}JB_SPACE_FILE_SHARE_PATH/2022.xml
+                ledger -y %F -f "${'$'}(date +%Y).dat" xml > "${'$'}JB_SPACE_FILE_SHARE_PATH/${'$'}(date +%Y).xml"
             """
         }
     }
