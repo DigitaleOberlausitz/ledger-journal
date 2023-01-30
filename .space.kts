@@ -10,7 +10,7 @@ job("Print balance") {
     }
     container(displayName = "ledger-journal", image = "dcycle/ledger:1") {
         shellScript {
-            content = "ledger -f 2023.dat xml > ${'$'}JB_SPACE_FILE_SHARE_PATH/journal.xml"
+            content = "pwd; ls -al; ledger -f 2023.dat xml > ${'$'}JB_SPACE_FILE_SHARE_PATH/journal.xml"
         }
     }
     container(displayName = "xsltproc", image = "s3v1/xsltproc") {
