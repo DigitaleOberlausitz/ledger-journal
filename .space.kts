@@ -7,7 +7,9 @@
 job("Print balance") {
     container(displayName = "ledger-cli", image = "dcycle/ledger:1") {
         shellScript {
-            content = "ledger -f "${'$'}(date +%Y).dat" bal"
+            content = """
+                ledger -f "${'$'}(date +%Y).dat" bal
+            """
         }
     }
 }
