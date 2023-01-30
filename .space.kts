@@ -18,4 +18,9 @@ job("Print balance") {
             content = "xsltproc -o ${'$'}JB_SPACE_FILE_SHARE_PATH/journal.html ledger-journal.xslt ${'$'}JB_SPACE_FILE_SHARE_PATH/journal.xml"
         }
     }
+    container(displayName = "cat", image = "alpine") {
+        shellScript {
+            content = "ls -al; ls -al ${'$'}JB_SPACE_FILE_SHARE_PATH/; cat ${'$'}JB_SPACE_FILE_SHARE_PATH/journal.html"
+        }
+    }
 }
