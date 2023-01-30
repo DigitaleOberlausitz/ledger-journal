@@ -8,6 +8,8 @@ job("Print balance") {
     container(displayName = "ledger-cli", image = "dcycle/ledger:1") {
         args("-f", "2023.dat", "bal")
     }
+}
+job("Upload artifact") {
     container(displayName = "ledger-journal", image = "dcycle/ledger:1") {
         shellScript {
             content = "pwd; ls -al; ledger -f 2023.dat xml > ${'$'}JB_SPACE_FILE_SHARE_PATH/journal.xml"
@@ -18,20 +20,12 @@ job("Print balance") {
             content = "xsltproc -o ${'$'}JB_SPACE_FILE_SHARE_PATH/journal.html ledger-journal.xslt ${'$'}JB_SPACE_FILE_SHARE_PATH/journal.xml"
         }
     }
-    container(displayName = "cat", image = "alpine") {
+    // Docker image must contain the curl tool
+    container("alpine/curl") {
         shellScript {
-            content = "ls -al; ls -al ${'$'}JB_SPACE_FILE_SHARE_PATH/"
-        }
-    }
-    container("openjdk:11") {
-        kotlinScript { api ->
-            api.space().projects.automation.deployments.start(
-                project = api.projectIdentifier(),
-                targetIdentifier = TargetIdentifier.Key("journal"),
-                version = "1.0.0",
-                // automatically update deployment status based on a status of a job
-                syncWithAutomationJob = true
-            )
+            content = """
+                curl -i -H "Authorization: Bearer ${'$'}JB_SPACE_CLIENT_TOKEN" -F file=@"${'$'}JB_SPACE_FILE_SHARE_PATH/journal.html" "https://files.pkg.jetbrains.space/doev/p/finanzen/files/journals/2023.html"
+            """
         }
     }
 }
