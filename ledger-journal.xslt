@@ -15,10 +15,11 @@
                     <x:text disable-output-escaping="yes">
                         * {padding: 0; margin: 0; font-family: sans-serif; font-style: normal}
                         a {text-decoration: none}
-                        h1, h2, p {margin: 1rem}
+                        h1, p {margin: 1rem}
                         section {display: none}
-                        section:target, #balance {display: block}
+                        section:target, #transactions, #balance {display: block}
                         section>header {margin: 4rem 1rem 0 1rem}
+                        #transactions>header, #balance>header {margin: 2rem 1rem 0 1rem}
                         header>h2 {margin: 0}
                         table {margin: 2rem 0; empty-cells: show; border-collapse: collapse; border-spacing: 0}
                         section>table {margin-top: 0; vertical-align: initial}
@@ -55,29 +56,34 @@
                     <x:value-of select="substring(//account[substring(name, 5) = ' EBK']/name, 1, 4)"/>
                 </h1>
                 <p>Digitale Oberlausitz e. V. | Kontenrahmen: SKR49 | Geschäftsjahr: Kalenderjahr</p>
+                <x:apply-templates select="accounts" mode="balance"/>
                 <x:apply-templates select="transactions" />
                 <x:apply-templates select="accounts" />
-                <x:apply-templates select="accounts" mode="balance"/>
             </body>
         </html>
     </x:template>
     <x:template match="transactions">
-        <table>
-            <thead>
-                <tr>
-                    <th>Datum</th>
-                    <th>Belegnr.</th>
-                    <th>Beschreibung</th>
-                    <th>Buchungskonto</th>
-                    <th class="numeric">Betrag</th>
-                    <th>Gegenkonto</th>
-                    <th>Notiz</th>
-                </tr>
-            </thead>
-            <tbody>
-                <x:apply-templates/>
-            </tbody>
-        </table>
+        <section id="transactions">
+            <x:if test="//account[account-total/amount/quantity != 0]">
+                <header><h2>Buchungsjournal</h2></header>
+            </x:if>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Datum</th>
+                        <th>Belegnr.</th>
+                        <th>Beschreibung</th>
+                        <th>Buchungskonto</th>
+                        <th class="numeric">Betrag</th>
+                        <th>Gegenkonto</th>
+                        <th>Notiz</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <x:apply-templates/>
+                </tbody>
+            </table>
+        </section>
     </x:template>
     <x:template match="transaction">
         <x:variable name="numPostings" select="count(postings/posting)"/>
