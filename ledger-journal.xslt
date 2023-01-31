@@ -14,13 +14,14 @@
                 <style type="text/css">
                     <x:text disable-output-escaping="yes">
                         * {padding: 0; margin: 0; font-family: sans-serif; font-style: normal}
+                        a {text-decoration: none}
                         h1, h2, p {margin: 1rem}
                         section {display: none}
-                        section:target, section.totals {display: block}
+                        section:target, section.balance {display: block}
                         section>header {margin: 4rem 1rem 0 1rem}
                         header>h2 {margin: 0}
                         table {margin: 2rem 0; empty-cells: show; border-collapse: collapse; border-spacing: 0}
-                        section>table {margin-top: 0}
+                        section>table {margin-top: 0; vertical-align: initial}
                         th, td {text-align: left; padding: .5rem 1rem}
                         td {border: 1px none #ccc; border-style: solid none; vertical-align: top}
                         td.numeric, th.numeric {text-align: right; white-space: nowrap}
@@ -31,17 +32,19 @@
                         tr.posting.last td {border-style: solid none; padding-bottom: .5rem}
                         td.pos {color: #898}
                         td.neg {color: #977}
-                        section.totals table {border-collapse: separate}
-                        section.totals td {padding: .1rem .2rem}
-                        section.totals td.pos {color: #090}
-                        section.totals td.neg {color: #c00}
+                        section.balance table {border-collapse: separate; margin: 0 .9rem 2rem .9rem}
+                        section.balance th {padding: 0 1rem}
+                        section.balance td {padding: .1rem .1rem}
+                        section.balance td.pos {color: #060}
+                        section.balance td.neg {color: #900}
                         .account-tree {color: #999}
-                        .account-name {font-weight: bold}
+                        tr.header td {padding-top: .5rem}
                         tr.subtotal td {border-top: 3px double #000; padding-bottom: .5rem}
-                        tr.subtotal td.indent {border-top: 0 none}
-                        tr.subtotal td.account-name {font-style: italic; color: #999; font-weight: normal}
+                        tr.subtotal td.indent, tr.subtotal td.numeric {border-top: 3px double transparent}
+                        tr.header td.account-name {color: #999; font-style: italic}
+                        tr.subtotal td.account-name {color: #999}
                         tr.subtotal td.account-name::before {content: "Summe "; font-weight: bold}
-                        .totals td {border-style: none}
+                        .balance td {border-style: none}
                         @keyframes highlight { 0% {background-color: #ff8} 100% {background-color: #fff} }
                     </x:text>
                 </style>
@@ -214,10 +217,18 @@
                 <x:text>|</x:text>
             </x:for-each>
         </x:variable>
+        <x:variable name="dates">
+            <x:for-each select="//transaction">
+                <x:sort select="date" order="descending"/>
+                <x:value-of select="date"/>
+                <x:text>|</x:text>
+            </x:for-each>
+        </x:variable>
         <x:variable name="maxDepth" select="substring-before($depths, '|')"/>
-        <section class="totals">
+        <x:variable name="maxDate" select="substring-before($dates, '|')"/>
+        <section class="balance">
             <header>
-                <h2>Salden</h2>
+                <h2>Salden zum <x:value-of select="$maxDate"/></h2>
             </header>
             <table>
                 <thead>
@@ -228,8 +239,9 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <x:apply-templates select="account" mode="balance">
-                        <x:with-param name="maxDepth" select="$maxDepth"/>
+                    <x:apply-templates select="account/account" mode="balance">
+                        <x:with-param name="maxDepth" select="$maxDepth - 1"/>
+                        <x:with-param name="depth" select="0"/>
                     </x:apply-templates>
                 </tbody>
             </table>
@@ -237,41 +249,62 @@
     </x:template>
     <x:template match="account" mode="balance">
         <x:param name="maxDepth"/>
-        <x:variable name="depth" select="count(ancestor::account)"/>
+        <x:param name="depth" select="count(ancestor::account)"/>
+        <x:param name="name" select="name"/>
         <x:if test="descendant-or-self::account[account-total/amount/quantity != 0]">
-            <x:if test="account[name]">
+            <x:variable name="relevantChildren" select="account[account-total/amount/quantity != 0]"/>
+            <x:choose>
+                <x:when test="count($relevantChildren) > 1">
+                    <tr class="header">
+                        <x:if test="$depth > 0">
+                            <td class="indent" colspan="{$depth}"/>
+                        </x:if>
+                        <td class="account-name" colspan="{$maxDepth + 1 - $depth}"><x:value-of select="$name"/></td>
+                    </tr>
+                    <x:apply-templates select="$relevantChildren" mode="balance">
+                        <x:with-param name="maxDepth" select="$maxDepth"/>
+                        <x:with-param name="depth" select="$depth + 1"/>
+                    </x:apply-templates>
+                </x:when>
+                <x:otherwise>
+                    <x:apply-templates select="$relevantChildren" mode="balance">
+                        <x:with-param name="maxDepth" select="$maxDepth"/>
+                        <x:with-param name="name" select="$name"/>
+                        <x:with-param name="depth" select="$depth"/>
+                    </x:apply-templates>
+                </x:otherwise>
+            </x:choose>
+            <x:if test="count($relevantChildren) != 1">
                 <tr>
+                    <x:if test="$relevantChildren">
+                        <x:attribute name="class">subtotal</x:attribute>
+                    </x:if>
                     <x:if test="$depth > 0">
                         <td class="indent" colspan="{$depth}"/>
                     </x:if>
-                    <td class="account-name" colspan="{$maxDepth + 1 - $depth}"><x:value-of select="name"/></td>
+                    <td class="account-name" colspan="{$maxDepth + 1 - $depth}">
+                        <x:choose>
+                            <x:when test="$relevantChildren"><x:value-of select="$name"/></x:when>
+                            <x:otherwise>
+                                <a title="{fullname}" href="#ac{@id}"><x:value-of select="name"/></a>
+                            </x:otherwise>
+                        </x:choose>
+                    </td>
+                    <x:if test="$maxDepth + 1 > $depth">
+                        <td colspan="{$maxDepth + 1 - $depth}"/>
+                    </x:if>
+                    <td>
+                        <x:attribute name="class">
+                            <x:text>numeric</x:text>
+                            <x:choose>
+                                <x:when test="account-total/amount/quantity >= 0"> pos</x:when>
+                                <x:otherwise> neg</x:otherwise>
+                            </x:choose>
+                        </x:attribute>
+                        <x:value-of select="format-number(account-total/amount/quantity, '0,00€ S;0,00€ H', 'de')"/>
+                    </td>
                 </tr>
             </x:if>
-            <x:apply-templates select="account" mode="balance">
-                <x:with-param name="maxDepth" select="$maxDepth"/>
-            </x:apply-templates>
-            <tr>
-                <x:if test="account[name]">
-                    <x:attribute name="class">subtotal</x:attribute>
-                </x:if>
-                <x:if test="$depth > 0">
-                    <td class="indent" colspan="{$depth}"/>
-                </x:if>
-                <td class="account-name" colspan="{$maxDepth + 1 - $depth}"><x:value-of select="name"/></td>
-                <x:if test="$maxDepth + 1 > $depth">
-                    <td colspan="{$maxDepth + 1 - $depth}"/>
-                </x:if>
-                <td>
-                    <x:attribute name="class">
-                        <x:text>numeric</x:text>
-                        <x:choose>
-                            <x:when test="account-total/amount/quantity >= 0"> pos</x:when>
-                            <x:otherwise> neg</x:otherwise>
-                        </x:choose>
-                    </x:attribute>
-                    <x:value-of select="format-number(account-total/amount/quantity, '0,00€ S;0,00€ H', 'de')"/>
-                </td>
-            </tr>
         </x:if>
     </x:template>
     <x:template match="*"/>
