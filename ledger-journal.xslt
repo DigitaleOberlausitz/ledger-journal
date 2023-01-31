@@ -13,17 +13,17 @@
                 </title>
                 <style type="text/css">
                     <x:text disable-output-escaping="yes">
-                        * {padding: 0; margin: 0; font-family: sans-serif}
+                        * {padding: 0; margin: 0; font-family: sans-serif; font-style: normal}
                         h1, h2, p {margin: 1rem}
                         section {display: none}
-                        section:target {display: block}
+                        section:target, section.totals {display: block}
                         section>header {margin: 4rem 1rem 0 1rem}
                         header>h2 {margin: 0}
-                        table {margin: 2rem 0; empty-cells: show; border-collapse: collapse}
+                        table {margin: 2rem 0; empty-cells: show; border-collapse: collapse; border-spacing: 0}
                         section>table {margin-top: 0}
                         th, td {text-align: left; padding: .5rem 1rem}
                         td {border: 1px none #ccc; border-style: solid none; vertical-align: top}
-                        td.numeric, th.numeric {text-align: right}
+                        td.numeric, th.numeric {text-align: right; white-space: nowrap}
                         td.multiple {color: #aaa}
                         tr {background-color: #fff}
                         tr:target {background-color: #ff8; animation: highlight 1s ease 2s forwards}
@@ -31,6 +31,17 @@
                         tr.posting.last td {border-style: solid none; padding-bottom: .5rem}
                         td.pos {color: #898}
                         td.neg {color: #977}
+                        section.totals table {border-collapse: separate}
+                        section.totals td {padding: .1rem .2rem}
+                        section.totals td.pos {color: #090}
+                        section.totals td.neg {color: #c00}
+                        .account-tree {color: #999}
+                        .account-name {font-weight: bold}
+                        tr.subtotal td {border-top: 3px double #000; padding-bottom: .5rem}
+                        tr.subtotal td.indent {border-top: 0 none}
+                        tr.subtotal td.account-name {font-style: italic; color: #999; font-weight: normal}
+                        tr.subtotal td.account-name::before {content: "Summe "; font-weight: bold}
+                        .totals td {border-style: none}
                         @keyframes highlight { 0% {background-color: #ff8} 100% {background-color: #fff} }
                     </x:text>
                 </style>
@@ -43,6 +54,7 @@
                 <p>Digitale Oberlausitz e. V. | Kontenrahmen: SKR49 | Geschäftsjahr: Kalenderjahr</p>
                 <x:apply-templates select="transactions" />
                 <x:apply-templates select="accounts" />
+                <x:apply-templates select="accounts" mode="balance"/>
             </body>
         </html>
     </x:template>
@@ -193,6 +205,74 @@
                 <x:value-of select="format-number($total, '0,00€ S;0,00€ H', 'de')"/>
             </td>
         </tr>
+    </x:template>
+    <x:template match="accounts" mode="balance">
+        <x:variable name="depths">
+            <x:for-each select="//account">
+                <x:sort select="count(ancestor::account)" order="descending"/>
+                <x:value-of select="count(ancestor::account)"/>
+                <x:text>|</x:text>
+            </x:for-each>
+        </x:variable>
+        <x:variable name="maxDepth" select="substring-before($depths, '|')"/>
+        <section class="totals">
+            <header>
+                <h2>Salden</h2>
+            </header>
+            <table>
+                <thead>
+                    <tr>
+                        <x:for-each select="//account[count(ancestor::account) = $maxDepth][1]/ancestor::account">
+                            <th/>
+                        </x:for-each>
+                    </tr>
+                </thead>
+                <tbody>
+                    <x:apply-templates select="account" mode="balance">
+                        <x:with-param name="maxDepth" select="$maxDepth"/>
+                    </x:apply-templates>
+                </tbody>
+            </table>
+        </section>
+    </x:template>
+    <x:template match="account" mode="balance">
+        <x:param name="maxDepth"/>
+        <x:variable name="depth" select="count(ancestor::account)"/>
+        <x:if test="descendant-or-self::account[account-total/amount/quantity != 0]">
+            <x:if test="account[name]">
+                <tr>
+                    <x:if test="$depth > 0">
+                        <td class="indent" colspan="{$depth}"/>
+                    </x:if>
+                    <td class="account-name" colspan="{$maxDepth + 1 - $depth}"><x:value-of select="name"/></td>
+                </tr>
+            </x:if>
+            <x:apply-templates select="account" mode="balance">
+                <x:with-param name="maxDepth" select="$maxDepth"/>
+            </x:apply-templates>
+            <tr>
+                <x:if test="account[name]">
+                    <x:attribute name="class">subtotal</x:attribute>
+                </x:if>
+                <x:if test="$depth > 0">
+                    <td class="indent" colspan="{$depth}"/>
+                </x:if>
+                <td class="account-name" colspan="{$maxDepth + 1 - $depth}"><x:value-of select="name"/></td>
+                <x:if test="$maxDepth + 1 > $depth">
+                    <td colspan="{$maxDepth + 1 - $depth}"/>
+                </x:if>
+                <td>
+                    <x:attribute name="class">
+                        <x:text>numeric</x:text>
+                        <x:choose>
+                            <x:when test="account-total/amount/quantity >= 0"> pos</x:when>
+                            <x:otherwise> neg</x:otherwise>
+                        </x:choose>
+                    </x:attribute>
+                    <x:value-of select="format-number(account-total/amount/quantity, '0,00€ S;0,00€ H', 'de')"/>
+                </td>
+            </tr>
+        </x:if>
     </x:template>
     <x:template match="*"/>
 </x:stylesheet>
