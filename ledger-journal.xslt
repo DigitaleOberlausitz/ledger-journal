@@ -42,7 +42,7 @@
                         tr.header td {padding-top: .5rem}
                         #balance td {border-style: none}
                         #balance tr.subtotal td {border-top: 3px double #000; padding-bottom: .5rem}
-                        tr.subtotal td.indent, tr.subtotal td.numeric {border-top: 3px double transparent}
+                        #balance tr.subtotal td.indent, #balance tr.subtotal td.numeric {border-top: 3px double transparent}
                         tr.header td.account-name {color: #999; font-style: italic}
                         tr.subtotal td.account-name {color: #999}
                         tr.subtotal td.account-name::before {content: "Summe "; font-weight: bold}
