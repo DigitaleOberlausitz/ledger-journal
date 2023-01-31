@@ -17,7 +17,7 @@
                         a {text-decoration: none}
                         h1, h2, p {margin: 1rem}
                         section {display: none}
-                        section:target, section.balance {display: block}
+                        section:target, #balance {display: block}
                         section>header {margin: 4rem 1rem 0 1rem}
                         header>h2 {margin: 0}
                         table {margin: 2rem 0; empty-cells: show; border-collapse: collapse; border-spacing: 0}
@@ -32,19 +32,19 @@
                         tr.posting.last td {border-style: solid none; padding-bottom: .5rem}
                         td.pos {color: #898}
                         td.neg {color: #977}
-                        section.balance table {border-collapse: separate; margin: 0 .9rem 2rem .9rem}
-                        section.balance th {padding: 0 1rem}
-                        section.balance td {padding: .1rem .1rem}
-                        section.balance td.pos {color: #060}
-                        section.balance td.neg {color: #900}
+                        #balance table {border-collapse: separate; margin: 0 .9rem 2rem .9rem}
+                        #balance th {padding: 0 1rem}
+                        #balance td {padding: .1rem .1rem}
+                        #balance td.pos {color: #060}
+                        #balance td.neg {color: #900}
                         .account-tree {color: #999}
                         tr.header td {padding-top: .5rem}
-                        tr.subtotal td {border-top: 3px double #000; padding-bottom: .5rem}
+                        #balance td {border-style: none}
+                        #balance tr.subtotal td {border-top: 3px double #000; padding-bottom: .5rem}
                         tr.subtotal td.indent, tr.subtotal td.numeric {border-top: 3px double transparent}
                         tr.header td.account-name {color: #999; font-style: italic}
                         tr.subtotal td.account-name {color: #999}
                         tr.subtotal td.account-name::before {content: "Summe "; font-weight: bold}
-                        .balance td {border-style: none}
                         @keyframes highlight { 0% {background-color: #ff8} 100% {background-color: #fff} }
                     </x:text>
                 </style>
@@ -226,26 +226,30 @@
         </x:variable>
         <x:variable name="maxDepth" select="substring-before($depths, '|')"/>
         <x:variable name="maxDate" select="substring-before($dates, '|')"/>
-        <section class="balance">
-            <header>
-                <h2>Salden zum <x:value-of select="$maxDate"/></h2>
-            </header>
-            <table>
-                <thead>
-                    <tr>
-                        <x:for-each select="//account[count(ancestor::account) = $maxDepth][1]/ancestor::account">
-                            <th/>
-                        </x:for-each>
-                    </tr>
-                </thead>
-                <tbody>
-                    <x:apply-templates select="account/account" mode="balance">
-                        <x:with-param name="maxDepth" select="$maxDepth - 1"/>
-                        <x:with-param name="depth" select="0"/>
-                    </x:apply-templates>
-                </tbody>
-            </table>
-        </section>
+        <x:if test="//account[account-total/amount/quantity != 0]">
+            <section id="balance">
+                <header>
+                    <h2>Salden zum
+                        <x:value-of select="$maxDate"/>
+                    </h2>
+                </header>
+                <table>
+                    <thead>
+                        <tr>
+                            <x:for-each select="//account[count(ancestor::account) = $maxDepth][1]/ancestor::account">
+                                <th/>
+                            </x:for-each>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <x:apply-templates select="account/account" mode="balance">
+                            <x:with-param name="maxDepth" select="$maxDepth - 1"/>
+                            <x:with-param name="depth" select="0"/>
+                        </x:apply-templates>
+                    </tbody>
+                </table>
+            </section>
+        </x:if>
     </x:template>
     <x:template match="account" mode="balance">
         <x:param name="maxDepth"/>
