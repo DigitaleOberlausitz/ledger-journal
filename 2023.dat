@@ -115,3 +115,11 @@ account 2023 SBK
 2023-02-28 * (2023.007) Kontoführung
     0955    -4,10€
     2704
+2023-02-28 * (2023.007) [Storno] Mitgliedsbeitrag und Spende ec764090
+    0955    -1000,00€
+    3220    744,00€
+    20004
+2023-02-28 * (2023.007) [Korrektur] Mitgliedsbeitrag und Spende ec764090
+    0955    1000,00€
+    3221    -744,00€
+    20004
