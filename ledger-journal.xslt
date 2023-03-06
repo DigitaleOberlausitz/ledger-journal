@@ -172,7 +172,7 @@
                             <th>Datum</th>
                             <th>
                                 <x:choose>
-                                    <x:when test="substring(name, 5) = ' EBK' or substring(name, 5) = ' SBK' ">Gegenkonto</x:when>
+                                    <x:when test="substring(name, 5) = ' EBK' or substring(name, 5) = ' SBK' or substring(name, 1, 5) = '9889 '">Gegenkonto</x:when>
                                     <x:otherwise>Belegnr.</x:otherwise>
                                 </x:choose>
                             </th>
@@ -196,7 +196,7 @@
             <td><a href="#tx{$transaction}"><x:value-of select="../../date"/></a></td>
             <td>
                 <x:choose>
-                    <x:when test="substring(account/name, 5) = ' EBK' or substring(account/name, 5) = ' SBK' ">
+                    <x:when test="substring(account/name, 5) = ' EBK' or substring(account/name, 5) = ' SBK' or substring(//account[@id = current()/account/@ref]/name, 1, 5) = '9889 '">
                         <x:variable name="otherAccId" select="../posting[account/@ref != current()/account/@ref]/account/@ref"/>
                         <a href="#ac{$otherAccId}"><x:value-of select="//account[@id = $otherAccId]/name"/></a>
                     </x:when>
