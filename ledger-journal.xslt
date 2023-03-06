@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<x:stylesheet xmlns:x="http://www.w3.org/1999/XSL/Transform"
-              version="1.1" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
->
+<x:stylesheet xmlns:x="http://www.w3.org/1999/XSL/Transform" version="1.1">
     <x:output method="html"/>
     <x:decimal-format decimal-separator="," grouping-separator="." name="de"/>
     <x:template match="/ledger">
@@ -120,8 +118,8 @@
                     <td class="multiple">...</td>
                     <td/>
                 </tr>
-                <xsl:apply-templates select="$creditPostings"/>
-                <xsl:apply-templates select="$debitPostings"/>
+                <x:apply-templates select="$creditPostings"/>
+                <x:apply-templates select="$debitPostings"/>
             </x:otherwise>
         </x:choose>
     </x:template>
@@ -172,7 +170,12 @@
                     <thead>
                         <tr>
                             <th>Datum</th>
-                            <th>Belegnr.</th>
+                            <th>
+                                <x:choose>
+                                    <x:when test="substring(name, 5) = ' EBK' or substring(name, 5) = ' SBK' ">Gegenkonto</x:when>
+                                    <x:otherwise>Belegnr.</x:otherwise>
+                                </x:choose>
+                            </th>
                             <th>Beschreibung</th>
                             <th>Soll</th>
                             <th>Haben</th>
@@ -191,7 +194,15 @@
         <x:variable name="transaction" select="count(../../preceding-sibling::transaction) + 1"/>
         <tr>
             <td><a href="#tx{$transaction}"><x:value-of select="../../date"/></a></td>
-            <td><a href="#tx{$transaction}"><x:value-of select="../../code"/></a></td>
+            <td>
+                <x:choose>
+                    <x:when test="substring(account/name, 5) = ' EBK' or substring(account/name, 5) = ' SBK' ">
+                        <x:variable name="otherAccId" select="../posting[account/@ref != current()/account/@ref]/account/@ref"/>
+                        <a href="#ac{$otherAccId}"><x:value-of select="//account[@id = $otherAccId]/name"/></a>
+                    </x:when>
+                    <x:otherwise><a href="#tx{$transaction}"><x:value-of select="../../code"/></a></x:otherwise>
+                </x:choose>
+            </td>
             <td><a href="#tx{$transaction}"><x:value-of select="../../payee"/></a></td>
             <td class="numeric">
                 <x:if test="post-amount/amount/quantity >= 0">
