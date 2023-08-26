@@ -180,3 +180,25 @@ account 2023 SBK
 2023-07-14 * (2023.015) Beitrag in bar (mit Fehler im Datum)
     0925    8,00€
     10024
+2023-07-07 * (2023.016) Beiträge Neumitglieder
+    10022   -12,00€
+    10023   -12,00€
+    0955
+2023-07-31 * (2023.016) USt. Kontoführung
+    0955    -0,73€
+    2704
+2023-07-31 * (2023.016) Kontoführung
+    0955    -3,84€
+    2704
+2023-08-11 * (2023.018) Spendendose Sommergrillen
+    0925    11,00€
+    3223
+2023-08-26 * (2023.017, 2023.020) Auslagen Sommergrillen
+    0950    -26,07€
+    2800
+2023-08-26 * (2023.019) Auslagen Sommergrillen
+    0950    -68,96€
+    2800
+2023-08-26 * (2023.021) Auslagen Sommergrillen
+    0925    -10,79€
+    2800
