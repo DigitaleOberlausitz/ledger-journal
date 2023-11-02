@@ -341,3 +341,21 @@ account 9 Statistik- & Vortragskonten:9999 PERSONENKONTEN:70000-99999 Kreditoren
 2023-10-31 * (2023.051) Kontoführung
     0955    -5,50€
     2704
+2023-09-22 * (2023.028) [Storno] Sensortechnik Hackathon
+    0950    177,20€
+    6670
+2023-10-02 * (2023.052) [Storno] Sensortechnik Hackathon
+    0955    232,00€
+    0475
+2023-10-04 * (2023.030) [Storno] Sensortechnik Hackathon
+    0955    22,49€
+    0475
+2023-09-22 * (2023.028) [Korrektur] Sensortechnik Hackathon
+    0950    -177,20€
+    2804
+2023-10-02 * (2023.052) [Korrektur] Sensortechnik Hackathon
+    0955    -232,00€
+    2804
+2023-10-04 * (2023.030) [Korrektur] Sensortechnik Hackathon
+    0955    -22,49€
+    2804
