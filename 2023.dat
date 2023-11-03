@@ -359,3 +359,32 @@ account 9 Statistik- & Vortragskonten:9999 PERSONENKONTEN:70000-99999 Kreditoren
 2023-10-04 * (2023.030) [Korrektur] Sensortechnik Hackathon
     0955    -22,49€
     2804
+
+account 9 Statistik- & Vortragskonten:9999 PERSONENKONTEN:70000-99999 Kreditoren:70002 Auslagen Marco
+    alias 70002
+
+2023-09-29 * (2023.058) Sensortechnik Hackathon
+    70002    -8,99€
+    2804
+2023-09-29 * (2023.059) Sensortechnik Hackathon
+    70002    -23,98€
+    2804
+2023-09-29 * (2023.062) Sensortechnik Hackathon
+    70002    -23,60€
+    2804
+2023-09-30 * (2023.056) Sensortechnik Hackathon
+    70002    -6,75€
+    2804
+2023-10-01 * (2023.060) Sensortechnik Hackathon
+    70002    -32,40€
+    2804
+2023-10-01 * (2023.061) Sensortechnik Hackathon
+    70002    -12,50€
+    2804
+2023-10-04 * (2023.057) Sensortechnik Hackathon
+    70002    -27,00€
+    2804
+
+;2023-11-03 * Erstattung Auslagen Hackathon
+;    0955    -135,22€
+;    70002
