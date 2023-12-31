@@ -434,3 +434,73 @@ account 9 Statistik- & Vortragskonten:9999 PERSONENKONTEN:70000-99999 Kreditoren
     1034    128,34€  ; Raumkosten
     1034      7,05€  ; Geschenke
     3953
+
+2023-12-31 Gewinnermittlung ideeller Bereich
+    2110    1392,00€
+    2704    -117,47€
+    2753    -299,00€
+    2800    -105,82€
+    2804    -566,91€
+    2810    -35,03€
+    2894    -27,49€
+    2900    -22,00€
+    2661    -110,00€
+    3221    872,32€
+    3223    27,00€
+    9882
+2023-12-31 Gewinnermittlung Zweckbetriebe
+    6680    -150,00€
+    6805    -954,43€
+    6834    -128,34€
+    6845    -7,05€
+    9886
+2023-12-31 Gewinnermittlung wirtschaftliche Geschäftsbetriebe
+    8016    4608,00€
+    8200    -100,00€
+    8330    -335,68€
+    8334    -719,53€
+    8700    -78,60€
+    8800    -1216,00€
+    9888
+2023-12-31 Einstellung in freie Rücklage aus ideellem Bereich
+    3965    229,13€
+    1070
+2023-12-31 Einstellung in freie Rücklage aus wirtschaftlichen Geschäftsbetrieben
+    3965    215,82€
+    1070
+2023-12-31 Ergebnisverwendung
+    3953    285,39€
+    9889
+2023-12-31 Ergebnisverwendung
+    3965    -444,95€
+    9889
+2023-12-31 Ergebnisverwendung
+    9882    1007,60€
+    9889
+2023-12-31 Ergebnisverwendung
+    9886    -1239,82€
+    9889
+2023-12-31 Ergebnisverwendung
+    9888    2158,19€
+    9889
+2023-12-31 Ergebnisverwendung
+    3963    1766,41€
+    1035
+2023-12-31 Ergebnisverwendung
+    9889    1766,41€
+    3963
+2023-12-31 Abschlussbuchung
+    0925    -5,80€
+    2023 SBK
+2023-12-31 Abschlussbuchung
+    0955    -3731,60€
+    2023 SBK
+2023-12-31 Abschlussbuchung
+    1034    583,32€
+    2023 SBK
+2023-12-31 Abschlussbuchung
+    1035    1766,41€
+    2023 SBK
+2023-12-31 Abschlussbuchung
+    1070    1387,67€
+    2023 SBK
