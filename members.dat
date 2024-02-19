@@ -82,3 +82,6 @@ account 9 Statistik- & Vortragskonten:9999 PERSONENKONTEN:10000-69999 Debitoren:
 
 account 9 Statistik- & Vortragskonten:9999 PERSONENKONTEN:10000-69999 Debitoren:20004 ec764090
     alias 20004
+
+account 9 Statistik- & Vortragskonten:9999 PERSONENKONTEN:10000-69999 Debitoren:20005 82579ddf
+    alias 20005
