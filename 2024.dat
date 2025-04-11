@@ -308,3 +308,42 @@ account 9 Statistik- & Vortragskonten:9999 PERSONENKONTEN:70000-99999 Kreditoren
 2024-07-29 * (2024.051) Vereinsheim, Auslagen Max
     70001    -38,74€
     2704
+2024-07-12 * (2024.054) [Storno] 1&1 Internet
+    0955    35,46€
+    2702
+2024-07-12 * (2024.044) [Korrektur] 1&1 Internet
+    0955    -35,46€
+    2702
+2024-08-01 * (2024.052) Eröffnungsfeier Snacks/Getränke, Auslagen Max
+    70001    -147,68€
+    6805
+2024-08-01 * (2024.053) Eröffnungsfeier Getränke, Auslagen Max
+    70001    -10,86€
+    6805
+2024-08-01 * (2024.042) Miete Lutherstraße
+    0955    -410,00€
+    2661
+2024-08-05 * (2024.042) Nebenkosten SWG
+    0955    -40,00€
+    2663
+2024-08-09 * (2024.055) Webhosting-Gebühren
+    0955    -5,74€
+    2810
+2024-08-13 * (2024.056) 1&1 Internet
+    0955    -35,46€
+    2702
+2024-08-15 * (2024.036) Pädagogischer Tag Grundschule Kittlitz
+    0955    499,00€
+    6520
+2024-08-26 * (2024.042) Erstattung Auslagen Max
+    0955    -330,07€
+    70001
+2024-08-28 * (2024.037) Sponsoring SednaSoft
+    0955    1024,00€
+    8016
+2024-08-31 * (2024.042) USt. Kontoführung
+    0955    -1,00€
+    2704
+2024-08-31 * (2024.042) Kontoführung
+    0955    -5,24€
+    2704
