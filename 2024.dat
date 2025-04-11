@@ -275,3 +275,36 @@ account 9 Statistik- & Vortragskonten:9999 PERSONENKONTEN:70000-99999 Kreditoren
 2024-06-11 * (2024.034) [Korrektur] Webhosting-Gebühren
     0955    -2,09€
     2810
+2024-07-01 * (2024.035) Miete Lutherstraße
+    0955    -410,00€
+    2661
+2024-07-02 * (2024.035) Nebenkosten SWG
+    0955    -40,00€
+    2663
+2024-07-02 * (2024.054) 1&1 Einrichtungsgebühr
+    0955    -9,90€
+    2702
+2024-07-11 * (2024.043) Webhosting-Gebühren
+    0955    -2,09€
+    2810
+2024-07-12 * (2024.054) 1&1 Internet
+    0955    -35,46€
+    2702
+2024-07-31 * (2024.035) USt. Kontoführung
+    0955    -0,72€
+    2704
+2024-07-31 * (2024.035) Kontoführung
+    0955    -3,80€
+    2704
+2024-07-27 * (2024.048) Büromaterial, Auslagen Max
+    70001    -13,96€
+    2701
+2024-07-28 * (2024.049) Vereinsheim, Auslagen Max
+    70001    -17,56€
+    2704
+2024-07-29 * (2024.050) Vereinsheim, Auslagen Max
+    70001    -31,52€
+    2704
+2024-07-29 * (2024.051) Vereinsheim, Auslagen Max
+    70001    -38,74€
+    2704
