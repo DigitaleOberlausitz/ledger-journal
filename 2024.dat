@@ -260,3 +260,18 @@ account 9 Statistik- & Vortragskonten:9999 PERSONENKONTEN:70000-99999 Kreditoren
 2024-06-28 * (2024.030) Kontoführung
     0955    -3,80€
     2704
+2024-06-01 * (2024.046) JUG Getränke, Auslagen Max
+    70001    -19,99€
+    6805
+2024-06-05 * (2024.045) JUG Getränke, Auslagen Max
+    70001    -35,39€
+    6805
+2024-06-09 * (2024.047) Vereinsheim, Auslagen Max
+    70001    -14,37€
+    2704
+2024-06-11 * (2024.030) [Storno] Webhosting-Gebühren
+    0955    2,09€
+    2810
+2024-06-11 * (2024.034) [Korrektur] Webhosting-Gebühren
+    0955    -2,09€
+    2810
