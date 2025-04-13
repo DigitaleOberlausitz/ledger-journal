@@ -486,3 +486,37 @@ account 9 Statistik- & Vortragskonten:9999 PERSONENKONTEN:70000-99999 Kreditoren
 2024-11-13 ! Beitrag offene Posten Neumitglied 296c533f
     10025   4,00€
     2110
+2024-12-02 * (2024.082) Nebenkosten SWG
+    0955    -40,00€
+    2663
+2024-12-04 * (2024.082) Nutzung falsche Bankkarte
+    0955    -74,27€
+    0875
+2024-12-09 * (2024.082) Erstattung Nutzung falsche Bankkarte
+    0955    74,27€
+    0875
+2024-12-10 * (2024.082) Spende
+    0955    5,00€
+    3223
+2024-12-11 * (2024.083) Webhosting-Gebühren
+    0955    -8,77€
+    2810
+2024-12-11 * (2024.084) 1&1 Internet
+    0955    -35,46€
+    2702
+2024-12-27 * (2024.085) Regal Vereinsheim
+    0955    -64,90€
+    0340
+2024-12-31 * (2024.082) USt. Kontoführung
+    0955    -1,00€
+    2704
+2024-12-31 * (2024.082) Kontoführung
+    0955    -5,24€
+    2704
+;2024-12-31 (2024.031) Sofortabschreibung
+;    0340    -120,00€
+;    2501
+;2024-12-31 (2024.085) Sofortabschreibung
+;    0340    -64,90€
+;    2501
+;;neuer Kontostand vom 28.06.2024                       4.253,76 H
