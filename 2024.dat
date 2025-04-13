@@ -513,10 +513,24 @@ account 9 Statistik- & Vortragskonten:9999 PERSONENKONTEN:70000-99999 Kreditoren
 2024-12-31 * (2024.082) Kontoführung
     0955    -5,24€
     2704
-;2024-12-31 (2024.031) Sofortabschreibung
-;    0340    -120,00€
-;    2501
-;2024-12-31 (2024.085) Sofortabschreibung
-;    0340    -64,90€
-;    2501
-;;neuer Kontostand vom 28.06.2024                       4.253,76 H
+2024-10-21 * (2024.070) [Storno] Hackathon Marktkauf: Getränke, Snacks
+    0955    137,15€
+    6805
+2024-10-21 * (2024.070) [Korrektur] Hackathon Marktkauf: Getränke, Snacks (mit Sponsoren)
+    0955    -137,15€
+    8334
+2024-12-31 * Entnahme aus Zweckbetriebsrücklage
+    1034    258,56€    ; Material (2024.008 anteilig)
+    1034    122,60€    ; Material (2024.032)
+    1034     22,16€    ; Material (2024.069)
+    1034    180,00€    ; Raumkosten (2024.078)
+    3953
+2022-12-31 * (2022.038) Mitgliedsbeitrag 296c533f 2024-Q4 (ARAP)
+    10025  -4,00€
+    0990
+2024-12-31 * (2024.031) Sofortabschreibung
+    0340    -120,00€
+    2501
+2024-12-31 * (2024.085) Sofortabschreibung
+    0340    -64,90€
+    2501
