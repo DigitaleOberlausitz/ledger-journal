@@ -534,3 +534,69 @@ account 9 Statistik- & Vortragskonten:9999 PERSONENKONTEN:70000-99999 Kreditoren
 2024-12-31 * (2024.085) Sofortabschreibung
     0340    -64,90€
     2501
+2024-12-31 Gewinnermittlung ideeller Bereich
+    2110    1652,00€
+    2501    -184,90€
+    2701    -13,96€
+    2702    -222,66€
+    2704    -329,65€
+    2753    -503,25€
+    2802    -40,00€
+    2810    -33,00€
+    2900    -22,00€
+    2661    -2460,00€
+    2663    -240,00€
+    3220    744,00€
+    3223    268,29€
+    9882
+2024-12-31 Gewinnermittlung Zweckbetriebe
+    6328    -122,60€
+    6520    499,00€
+    6670    -1982,30€
+    6805    -625,60€
+    6839    -180,00€
+    6842    -22,16€
+    9886
+2024-12-31 Gewinnermittlung wirtschaftliche Geschäftsbetriebe
+    8006    2469,60€
+    8016    2604,00€
+    8334    -634,55€
+    8700    -138,60€
+    8800    -1000,00€
+    9888
+2024-12-31 Einstellung in freie Rücklage aus ideellem Bereich
+    3965    64,98€
+    1070
+2024-12-31 Ergebnisverwendung
+    3953    583,32€
+    9889
+2024-12-31 Ergebnisverwendung
+    3965    -64,98€
+    9889
+2024-12-31 Ergebnisverwendung
+    9882    -1385,13€
+    9889
+2024-12-31 Ergebnisverwendung
+    9886    -2433,66€
+    9889
+2024-12-31 Ergebnisverwendung
+    9888    3300,45€
+    9889
+2024-12-31 Abschlussbuchung
+    0726    -550,00€
+    2024 SBK
+2024-12-31 Abschlussbuchung
+    0925    -3,84€
+    2024 SBK
+2024-12-31 Abschlussbuchung
+    0955    -2661,22€
+    2024 SBK
+2024-12-31 Abschlussbuchung
+    0990    -4,00€
+    2024 SBK
+2024-12-31 Abschlussbuchung
+    1035    1766,41€
+    2024 SBK
+2024-12-31 Abschlussbuchung
+    1070    1452,65€
+    2024 SBK

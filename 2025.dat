@@ -1,0 +1,24 @@
+include skr49.dat
+include members.dat
+
+account 2025 EBK
+account 2025 SBK
+
+2025-01-01 Eröffnungsbuchung
+    0726    550,00€
+    2025 EBK
+2025-01-01 Eröffnungsbuchung
+    0925    3,84€
+    2025 EBK
+2025-01-01 Eröffnungsbuchung
+    0955    2661,22€
+    2025 EBK
+2025-01-01 Eröffnungsbuchung
+    0990    4,00€
+    2025 EBK
+2025-01-01 Eröffnungsbuchung
+    1035    -1766,41€
+    2025 EBK
+2025-01-01 Eröffnungsbuchung
+    1070    -1452,65€
+    2025 EBK
