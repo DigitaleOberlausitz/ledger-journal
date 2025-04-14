@@ -80,8 +80,11 @@ account 9 Statistik- & Vortragskonten:9999 PERSONENKONTEN:10000-69999 Debitoren:
 account 9 Statistik- & Vortragskonten:9999 PERSONENKONTEN:10000-69999 Debitoren:10027 5df60185
     alias 10027
 
-account 9 Statistik- & Vortragskonten:9999 PERSONENKONTEN:10000-69999 Debitoren:10028 fc0b8247
+account 9 Statistik- & Vortragskonten:9999 PERSONENKONTEN:10000-69999 Debitoren:10028 2b80bbc4
     alias 10028
+
+account 9 Statistik- & Vortragskonten:9999 PERSONENKONTEN:10000-69999 Debitoren:10029 fc0b8247
+    alias 10029
 
 account 9 Statistik- & Vortragskonten:9999 PERSONENKONTEN:10000-69999 Debitoren:20001 ee3ffa24
     alias 20001
