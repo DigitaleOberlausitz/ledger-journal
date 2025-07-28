@@ -23,7 +23,7 @@ jobs:
           image: dcycle/ledger:1
           options: --rm -v ${{ github.workspace }}:/data
           run: |
-            ledger -y %F -f "/data/${{ steps.vars.outputs.year }}.dat" xml > "/tmp/${{ steps.vars.outputs.year }}.xml"
+            ledger -y %F -f "/data/${{ steps.vars.outputs.year }}.dat" xml > "/data/${{ steps.vars.outputs.year }}.xml"
 
       - name: Generate HTML with xsltproc
         uses: addnab/docker-run-action@v3
@@ -31,7 +31,7 @@ jobs:
           image: s3v1/xsltproc
           options: --rm -v ${{ github.workspace }}:/data
           run: |
-            xsltproc -o "/data/docs/${{ steps.vars.outputs.year }}.html" /data/ledger-journal.xslt "/tmp/${{ steps.vars.outputs.year }}.xml"
+            xsltproc -o "/data/docs/${{ steps.vars.outputs.year }}.html" /data/ledger-journal.xslt "/data/${{ steps.vars.outputs.year }}.xml"
 
       - name: Add noindex to HTML
         run: |
