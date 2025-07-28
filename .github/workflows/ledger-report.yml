@@ -17,25 +17,15 @@ jobs:
         id: vars
         run: echo "year=$(date +%Y)" >> "$GITHUB_OUTPUT"
 
-      - name: Generate ledger XML
+      - name: Generate ledger HTML
         uses: addnab/docker-run-action@v3
         with:
           image: dcycle/ledger:1
           options: --rm -v ${{ github.workspace }}:/data
           run: |
             ledger -y %F -f "/data/${{ steps.vars.outputs.year }}.dat" xml > "/data/${{ steps.vars.outputs.year }}.xml"
-
-      - name: Generate HTML with xsltproc
-        uses: addnab/docker-run-action@v3
-        with:
-          image: s3v1/xsltproc
-          options: --rm -v ${{ github.workspace }}:/data
-          run: |
             xsltproc -o "/data/docs/${{ steps.vars.outputs.year }}.html" /data/ledger-journal.xslt "/data/${{ steps.vars.outputs.year }}.xml"
-
-      - name: Add noindex to HTML
-        run: |
-          sed -i 's|<head>|<head><meta name="robots" content="noindex">|' "${{ steps.vars.outputs.year }}.html"
+            rm "/data/${{ steps.vars.outputs.year }}.xml"
 
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v4

@@ -5,6 +5,7 @@
     <x:template match="/ledger">
         <html>
             <head>
+                <meta name="robots" content="noindex" />
                 <title>
                     <x:text>Finanzbuchhaltung </x:text>
                     <x:value-of select="substring(//account[substring(name, 5) = ' EBK']/name, 1, 4)"/>
