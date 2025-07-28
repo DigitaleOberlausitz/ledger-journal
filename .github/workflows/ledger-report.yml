@@ -29,6 +29,8 @@ jobs:
           options: --rm -v ${{ github.workspace }}:/data
           run: |
             ledger -y %F -f "/data/${{ steps.vars.outputs.year }}.dat" xml > "/data/docs/report.xml"
+            mkdir -p /data/docs
+            chmod -R a+w /data/docs
 
       - name: Generate HTML with xsltproc
         uses: addnab/docker-run-action@v3
