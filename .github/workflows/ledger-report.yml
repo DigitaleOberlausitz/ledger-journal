@@ -11,6 +11,8 @@ permissions:
 
 jobs:
   build-and-publish:
+    environment:
+      name: github-pages
     runs-on: ubuntu-latest
     name: Build Ledger Report and Publish to GitHub Pages
 
