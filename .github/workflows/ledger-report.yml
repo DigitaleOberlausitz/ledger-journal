@@ -18,9 +18,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set current year
+      - name: Set current year and month
         id: vars
-        run: echo "year=$(date +%Y)" >> "$GITHUB_OUTPUT"
+        run: |
+          echo "year=$(date +%Y)" >> "$GITHUB_OUTPUT"
+          echo "yearMonth=$(sort "$(date +%Y).dat" |grep -E "^([0-9][0-9][0-9][0-9])-" |tail -1 |cut -d" " -f1 |cut -d- -f1,2)" >> "$GITHUB_OUTPUT"
 
       - name: Generate ledger HTML
         uses: addnab/docker-run-action@v3
@@ -29,8 +31,9 @@ jobs:
           options: --rm -v ${{ github.workspace }}:/data
           run: |
             ledger -y %F -f "/data/${{ steps.vars.outputs.year }}.dat" xml > "/data/${{ steps.vars.outputs.year }}.xml"
-            xsltproc -o "/data/docs/${{ steps.vars.outputs.year }}.html" /data/ledger-journal.xslt "/data/${{ steps.vars.outputs.year }}.xml"
+            xsltproc -o "/data/docs/${{ steps.vars.outputs.yearMonth }}.html" /data/ledger-journal.xslt "/data/${{ steps.vars.outputs.year }}.xml"
             rm "/data/${{ steps.vars.outputs.year }}.xml"
+            cp "/data/docs/${{ steps.vars.outputs.yearMonth }}.html" "/data/docs/index.html"
 
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v4
