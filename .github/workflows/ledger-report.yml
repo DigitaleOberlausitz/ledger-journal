@@ -29,6 +29,13 @@ jobs:
           options: --rm -v ${{ github.workspace }}:/data
           run: |
             ledger -y %F -f "/data/${{ steps.vars.outputs.year }}.dat" xml > "/data/docs/${{ steps.vars.outputs.year }}.xml"
+
+      - name: Generate HTML with xsltproc
+        uses: addnab/docker-run-action@v3
+        with:
+          image: s3v1/xsltproc
+          options: --rm -v ${{ github.workspace }}:/data
+          run: |
             xsltproc -o "/data/docs/index.html" /data/ledger-journal.xslt "/data/docs/${{ steps.vars.outputs.year }}.xml"
             rm "/data/docs/${{ steps.vars.outputs.year }}.xml"
             cp "/data/docs/index.html" "/data/docs/$(sort "/data/${{ steps.vars.outputs.year }}.dat" |grep -E "^([0-9][0-9][0-9][0-9])-" |tail -1 |cut -d" " -f1 |cut -d- -f1,2).html"
