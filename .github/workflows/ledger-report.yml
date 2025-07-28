@@ -2,7 +2,7 @@ name: Generate and Publish Ledger Report
 
 on:
   push:
-    branches: [main]  # or your default branch
+    branches: [main]
 
 permissions:
   id-token: write
@@ -13,9 +13,8 @@ jobs:
   build-and-publish:
     environment:
       name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    name: Build Ledger Report and Publish to GitHub Pages
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -46,4 +45,5 @@ jobs:
           path: docs
 
       - name: Deploy to GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v4
