@@ -20,9 +20,7 @@ jobs:
 
       - name: Set current year and month
         id: vars
-        run: |
-          echo "year=$(date +%Y)" >> "$GITHUB_OUTPUT"
-          echo "yearMonth=$(sort "$(date +%Y).dat" |grep -E "^([0-9][0-9][0-9][0-9])-" |tail -1 |cut -d" " -f1 |cut -d- -f1,2)" >> "$GITHUB_OUTPUT"
+        run: echo "year=$(date +%Y)" >> "$GITHUB_OUTPUT"\
 
       - name: Generate ledger HTML
         uses: addnab/docker-run-action@v3
@@ -31,9 +29,9 @@ jobs:
           options: --rm -v ${{ github.workspace }}:/data
           run: |
             ledger -y %F -f "/data/${{ steps.vars.outputs.year }}.dat" xml > "/data/${{ steps.vars.outputs.year }}.xml"
-            xsltproc -o "/data/docs/${{ steps.vars.outputs.yearMonth }}.html" /data/ledger-journal.xslt "/data/${{ steps.vars.outputs.year }}.xml"
+            xsltproc -o "/data/docs/index.html" /data/ledger-journal.xslt "/data/${{ steps.vars.outputs.year }}.xml"
             rm "/data/${{ steps.vars.outputs.year }}.xml"
-            cp "/data/docs/${{ steps.vars.outputs.yearMonth }}.html" "/data/docs/index.html"
+            cp "/data/docs/index.html" "/data/docs/$(sort "${{ steps.vars.outputs.year }}.dat" |grep -E "^([0-9][0-9][0-9][0-9])-" |tail -1 |cut -d" " -f1 |cut -d- -f1,2).html"
 
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v4
