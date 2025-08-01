@@ -305,6 +305,12 @@ account 2025 SBK
 2025-07-31 * (2025.030) Kontoführung
     0955    -6,74€
     2704
+2025-04-24 * (2025.021) [Storno] Rückerstattung Nebenkosten SWG
+    0955    -198,42€
+    2420
+2025-04-24 * (2025.021) [Korrektur] Rückerstattung Nebenkosten SWG
+    0955    198,42€
+    2400
 
 ;2024-12-31 * (2025.033) Sofortabschreibung
 ;    0340    -421,01€
